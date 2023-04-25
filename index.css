@@ -720,6 +720,7 @@ body {
 	margin: auto;
 }
 .content-svg img{
+	padding: 81.5px 0px;
 	object-fit: contain;
 }
 
