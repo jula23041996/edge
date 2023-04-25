@@ -820,10 +820,11 @@ body {
 	height: auto;
 }
 .swiper-container1 .image-slider__slide {
-	height: 100%;
+	height: auto;
 	border-radius: 32px;
 }
 .swiper-container1 .image-slider__image {
+	height: 100%;
 	text-align: start;
 	color: #fff;
 }
