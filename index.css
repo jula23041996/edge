@@ -350,7 +350,7 @@ body {
 .mission-svg{
 	flex: 0 1 50%;
 	margin: auto;
-	padding: 81.5px 0px;
+	padding: 81.5px 0px 81.5px 60px;
 }
 .mission-svg img{
 	object-fit: contain;
@@ -373,7 +373,7 @@ body {
 	background-color: #006CA7;
 	color: #fff;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
 	.mission__content{
 		width: 98%;
 		margin: 0px auto;
@@ -724,7 +724,7 @@ body {
 	margin: auto;
 }
 .content-svg img{
-	padding: 81.5px 0px;
+	padding: 81.5px 0px 81.5px 60px;
 	object-fit: contain;
 }
 
