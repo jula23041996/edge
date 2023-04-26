@@ -1339,6 +1339,9 @@ input[type=submit]{
 	 }
   }
 /*FEASIBILITY*/
+.feasibility-studies{
+	background: radial-gradient(80.96% 53.81% at 114.26% 50.04%, rgba(80, 170, 87, 0.8) 3.21%, rgba(101, 180, 107, 0.4) 30.21%, rgba(124, 191, 129, 0.2) 56.25%, rgba(255, 255, 255, 0) 88.04%);
+  }
 .feasibility-studies__body{
 	margin: 58px 0px 0px 0px;
 }
@@ -1346,8 +1349,7 @@ input[type=submit]{
 	display: flex;
 	flex-direction: column;
 	color: #50AA57;
-	background-image: radial-gradient(80.96% 53.81% at 114.26% 50.04%, rgba(80, 170, 87, 0.8) 3.21%, rgba(101, 180, 107, 0.4) 30.21%, rgba(124, 191, 129, 0.2) 56.25%, rgba(255, 255, 255, 0) 88.04%);
-  }
+}
   .feasibility-studies__title{
 	padding: 0px 0px 24px 0px;
 	width: 100%;
@@ -1364,7 +1366,6 @@ input[type=submit]{
 }
 .studies-svg{
 	padding: 0px 0px 45px 0px;
-	transform: translate(0%, 20%);
 }
 .studies-svg img{
 	object-fit: contain;
@@ -1425,7 +1426,6 @@ input[type=submit]{
 	}
 	.studies-svg{
 		width: 100%;
-		transform: translate(0%, 0%);
 	}
 	.studies-svg img{
 		padding: 0px 0px 0px 15px;
@@ -1669,6 +1669,9 @@ input[type=submit]{
 	}
 
 /* Verification  & Certification */
+.verification{
+	background: radial-gradient(80.96% 53.81% at 114.26% 50.04%, rgba(80, 170, 87, 0.8) 3.21%, rgba(101, 180, 107, 0.4) 30.21%, rgba(124, 191, 129, 0.2) 56.25%, rgba(255, 255, 255, 0) 88.04%);
+  }
 .verification__body{
 	display: flex;
 	margin: 144px 0px 72px 0px;
@@ -1694,7 +1697,6 @@ input[type=submit]{
 }
 .verification-svg{
 	padding: 0px 0px 45px 0px;
-	transform: translate(0%, 20%);
 }
 .verification-svg img{
 	object-fit: contain;
@@ -1721,7 +1723,6 @@ input[type=submit]{
 	}
 	.verification-svg{
 		width: 100%;
-		transform: translate(0%, 0%);
 	}
 	.verification-svg img{
 		padding: 0px 0px 0px 15px;
