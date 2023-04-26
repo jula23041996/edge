@@ -914,6 +914,7 @@ body {
 /*BLOG*/
 .blog__container{
 	height: auto;
+	padding: 0px 15px;
 }
 .blog__content{
 	width: 80%;
