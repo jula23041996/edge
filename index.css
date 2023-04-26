@@ -1016,7 +1016,7 @@ body {
 	width: 1106px;
 	height: auto;
 	margin: auto;
-	background-image: url(bg_pc-feedback.svg);
+	background-image: url(.//img/bg_pc-feedback.svg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	border-radius: 32px;
@@ -1057,29 +1057,32 @@ form{
 	color: #50AA57;
 	text-align: start;
 }
-input{
-	flex: 1 1 50%;
-	height: 54px;
-	border: 1px solid #50AA57;
-	border-radius: 8px;
-}
 .inputs-names{
 	color: #50AA57;
 	font-size: 12px;
 	display: flex;
 	flex-direction: row;
-	margin: 0px -8px;
+	justify-content: space-between;
 }
 .inputs-contacts{
 	color: #50AA57;
 	font-size: 12px;
 	display: flex;
 	flex-direction: row;
-	margin: 0px -8px;
+	justify-content: space-between;
 }
 .input{
-	width: 100%;
-	padding: 16px 8px;
+	width: 49%;
+	padding: 16px 8px 16px 0px;
+}
+.input:last-child{
+	padding: 16px 0px 16px 0px;
+}
+
+input{
+	height: 54px;
+	border: 1px solid #50AA57;
+	border-radius: 8px;
 }
 .message{
 	color: #50AA57;
@@ -1112,7 +1115,7 @@ input[type=submit]{
   }
   @media (max-width: 1024px){
 	.feedback__content{
-		background-image: url(bg_tablet_feedback.svg);
+		background-image: url(./img/bg_tablet_feedback.svg);
 		border-radius: 90px;
 		width: 98%;
 		margin: auto;
@@ -1149,9 +1152,6 @@ input[type=submit]{
 	.inputs-names{
 		width: 100%;
 	}
-	.input{
-		width: 100%;
-	}
   }
   @media (max-width: 767.98px){
 	.feedback__container{
@@ -1165,6 +1165,10 @@ input[type=submit]{
 	}
 	input{
 		width: 100%;
+	}
+	.input{
+		width: 100%;
+		padding: 16px 0px 16px 0px;
 	}
 	.inputs-names{
 		flex-direction: column;
