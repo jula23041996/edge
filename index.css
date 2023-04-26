@@ -349,9 +349,11 @@ body {
 }
 .mission-svg{
 	flex: 0 1 50%;
+	margin: auto;
+	padding: 81.5px 0px;
 }
 .mission-svg img{
-	width: 100%;
+	object-fit: contain;
 }
 .mission-text > .label{
 	padding: 54px 0px 0px 0px;
@@ -388,8 +390,13 @@ body {
 	.mission-btn .button-name{
 		margin: auto;
 	}
-	.mission-svg img{
+	.mission-svg{
+		flex: 0 1 80%;
 		margin: auto;
+		padding: 56px 0px;
+	}
+	.mission-svg img{
+		width: 100%;
 	}
 }
 @media (max-width: 767.98px) {
@@ -406,10 +413,7 @@ body {
 		padding: 0px 0px 0px 0px;
 	}
 	.mission-svg{
-		flex: 0 1 80%;
-	}
-	.mission-svg img{
-		width: 100%;
+		padding: 32px 0px;
 	}
 }
 /*SERVICES*/
