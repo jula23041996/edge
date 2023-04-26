@@ -1563,8 +1563,16 @@ input[type=submit]{
 		margin: 40px auto;
 	}
 	.stage{
-		flex: 0 1 60%;
+		flex: 0 0 60%;
 		margin: auto;
+	}
+}
+@media (max-width: 500px){
+	.stage__blocks{
+		width: 100%;
+	}
+	.stage{
+		flex: 0 0 100%;
 	}
 }
 /* IMPLEMENTATION */
