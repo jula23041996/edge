@@ -92,7 +92,7 @@ body {
 	color: #676979;
 }
 @media (max-width: 768px){
-	.heading, .subtitle, .text{
+	.text{
 		font-size: 110%;
 	}
 }
