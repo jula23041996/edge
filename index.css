@@ -439,7 +439,7 @@ body {
 	padding: 8px 0px 0px 0px;
 }
 .services-btn{
-	padding: 8px 0px 24px 0px;
+	padding: 8px 0px 54px 0px;
 }
 .services__blocks{
 	padding: 0px 15px 54px 0px;
@@ -726,7 +726,7 @@ body {
 	margin: auto;
 }
 .content-svg img{
-	padding: 81.5px 0px 81.5px 60px;
+	padding: 81.5px 0px 81.5px 0px;
 	object-fit: contain;
 }
 
