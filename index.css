@@ -970,7 +970,7 @@ body {
 		flex-direction: column;
 		margin: auto;
 		width: 100%;
-		padding: 0px 110px;
+		padding: 144px 0px 0px 110px;
 	}
 	.blog__title{
 		width: 80%;
@@ -986,7 +986,7 @@ body {
 }
 @media (max-width: 767.98px){
 	.blog__content{
-		padding: 0px 5px;
+		padding: 64px 5px 0px 5px;
 	}
 	.blog__title{
 		width: 100%;
