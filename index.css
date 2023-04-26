@@ -1205,7 +1205,7 @@ input[type=submit]{
 	line-height: 7.125rem;
 	}
   }
-  @media (max-width: 390px){
+  @media (max-width: 528px){
 	.heading2{
 		text-align: start;
 		}
