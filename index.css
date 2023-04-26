@@ -1171,14 +1171,19 @@ input[type=submit]{
 /*Головне зображення*/
 .hero-image__container{
 	margin: 0px;
-    background-image: url(services_hero-image.png);
+        background-image: url(services_hero-image.png);
 	height: 990px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
 	z-index: 49;
 }
+.hero__heading{
+	padding: 0 15px;
+	margin: auto;
+}
 .heading2{
+	display: block;
 	width: 100%;
 	text-align: center;
 	color: #fff;
@@ -1187,21 +1192,19 @@ input[type=submit]{
 	font-weight: 900;
 	font-size: 9rem;
 	line-height: 10.5625rem;
+	text-align: center;
 }
 @media (max-width: 767.98px){
 .heading2{
-		font-size: 5.5625rem;
-		line-height: 7.125rem;
+	font-size: 5.5625rem;
+	line-height: 7.125rem;
 	}
   }
   @media (max-width: 390px){
 	.heading2{
 		text-align: start;
-	}
-	.hero-heading{
-		text-align: start;
-	}
-  }
+		}
+}
 /* Контейнер для бокового меню та послуг*/
 .page-content__cell{
 	min-width: 100%;
