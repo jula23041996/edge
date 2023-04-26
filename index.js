@@ -268,16 +268,17 @@ function toggleDisplay() {
   }
 }
 
-// Add click event listener for all screen sizes
-toggleDivs.forEach(function(div) {
-  div.addEventListener('click', toggleDisplay);
-});
-
-// Add mouseenter and mouseleave event listeners for desktop only
-if (window.innerWidth < 1024) {
-  toggleDivs.forEach(function(div) {
-    div.addEventListener('mouseenter', toggleDisplay);
-    div.addEventListener('mouseleave', toggleDisplay);
+if (window.matchMedia('(max-width: 1024px)').matches) {
+  toggleDivs.forEach(function(part) {
+    part.addEventListener('click', toggleDisplay);
+    part.removeEventListener('mouseenter', toggleDisplay);
+    part.removeEventListener('mouseleave', toggleDisplay);
+  });
+} else {
+  toggleDivs.forEach(function(part) {
+    part.removeEventListener('click', toggleDisplay);
+    part.addEventListener('mouseenter', toggleDisplay);
+    part.addEventListener('mouseleave', toggleDisplay);
   });
 }
   
