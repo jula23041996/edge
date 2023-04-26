@@ -315,9 +315,11 @@ body {
 	.edge-group__heading{
 		font-size: 6.25rem;	
 		line-height: 5.375rem;
+		text-align: start;
 	}
 	.edge-group__subheading{
 		width: 100%;
+		text-align: start;
 	}
 }
 @media (max-width: 767.98px) {
@@ -327,11 +329,11 @@ body {
 	}
 	.edge-group__heading{
 		font-size: 3.4375rem;	
-		line-height: 2.5625rem;
+		line-height: 3.4375rem;
 	}
 	.edge-group__subheading{
-		font-size: 1.5rem;
-		line-height: 1.75rem;
+		font-size: 1.75rem;
+		line-height: 2.1rem;
 	}
 }
 /*MISSION*/
