@@ -1346,10 +1346,7 @@ input[type=submit]{
 	display: flex;
 	flex-direction: column;
 	color: #50AA57;
-	background-image: url(blur.svg);
-	background-repeat: no-repeat;
-	background-position: right;
-	background-size: 100%;
+	background-image: radial-gradient(80.96% 53.81% at 114.26% 50.04%, rgba(80, 170, 87, 0.8) 3.21%, rgba(101, 180, 107, 0.4) 30.21%, rgba(124, 191, 129, 0.2) 56.25%, rgba(255, 255, 255, 0) 88.04%);
   }
   .feasibility-studies__title{
 	padding: 0px 0px 24px 0px;
@@ -1679,10 +1676,7 @@ input[type=submit]{
 .verification__content{
 	display: flex;
 	flex-direction: column;
-	background-image: url(blur.svg);
-	background-repeat: no-repeat;
-	background-position: right;
-	background-size: 100%;
+	background-image: radial-gradient(80.96% 53.81% at 114.26% 50.04%, rgba(80, 170, 87, 0.8) 3.21%, rgba(101, 180, 107, 0.4) 30.21%, rgba(124, 191, 129, 0.2) 56.25%, rgba(255, 255, 255, 0) 88.04%);
 }
 .verification__title{
 	padding: 0px 0px 24px 0px;
@@ -2022,8 +2016,11 @@ input[type=submit]{
 	padding: 0px 0px 16px 0px;
 }
 @media (max-width: 1024px) {
+	.credits__container{
+		margin: 120px 0px 88px 0px;
+	}
 	.credits__content{
-		width: 98%;
+		width: 80%;
 		margin: 0px auto;
         flex-direction: column-reverse;
 	}
@@ -2033,17 +2030,18 @@ input[type=submit]{
 	}
     .credits__title{
         margin: auto;
-        width: 80%;
-        text-align: center;
+        width: 100%;
+        text-align: start;
     }
     .credits__text{
         margin: auto;
-        width: 70%;
-        text-align: center;
+        width: 100%;
+        text-align: start;
     }
 }
 @media (max-width: 767.98px) {
 	.credits__container{
+		margin: 120px 0px 56px 0px;
 		padding: 0px;
 	}
 	.credits__content{
@@ -2072,39 +2070,51 @@ input[type=submit]{
 .goals__container{
     margin: 0px auto 88px;
     width: 80%;
+	background-color: #E8F1F2;
+	border-radius: 32px;
 }
 .goals__content{
     padding: 56px 0px;
-    width: 100%;
-    background-color: #E8F1F2;
+    width: 75%;
+	margin: auto;
     display: flex;
     flex-direction: column;
-    border-radius: 32px;
 }
 .goals__first-row{
-    width: 75%;
+    width: 100%;
     margin: 0px auto 48px;
 }
 .goals__first-row img{
     width: 100%;
 }
 .goals__second-row{
-    width: 75%;
-    margin: auto;
     display: flex;
     flex-direction: row;
-    row-gap: 8.5px;
-    column-gap: 8.5px;
     flex-wrap: wrap;
-    justify-content: space-between;
+	margin: -8px;
 }
 .goal{
     flex: 0 1 16%;
+	padding: 8px;
 }
 .goal img{
     width: 100%;
 }
+@media (max-width: 1500px){
+	.goals__second-row{
+		
+	}
+	.goal{
+        flex: 1 1 33%;
+    }
+}
 @media (max-width: 1024px){
+	.goals__container{
+		width: 80%;
+	}
+	.goals__content{
+		width: 100%;
+	}
     .goals__first-row{
         width: 100%;
         padding: 0px 56px;
@@ -2122,22 +2132,28 @@ input[type=submit]{
     .goals__container{
         width: 100%;
         padding: 0px;
+		border-radius: 0px;
     }
     .goals__content{
+
         border-radius: 0px;
     }
+	.goals__second-row{
+		justify-content: space-around;
+	}
     .goal{
         flex: 0 1 40%;
     }
 }
 @media (max-width: 390px){
     .goal{
-        flex: 0 1 80%;
+        flex: 1 1 80%;
     }
 }
 /*PARTNERS*/
 .partners__container{
     margin: 0px auto 144px;
+	padding: 0px 15px;
 }
 .partners__content{
     display: flex;
@@ -2145,38 +2161,58 @@ input[type=submit]{
 }
 .partners__text{
     width: 40%;
-    margin: 0 0 0 11%;
+	padding: 0px 0px 0px 193.26px;
     text-align: start;
     color: #42434D;
 }
 .partners__text p{
-    padding: 0px 0px 32px 0px;
+    padding: 0px 15px 32px 0px;
+	width: 100%;
 }
 .partners__row{
     width: 90%;
     margin: auto;
     display: flex;
+	flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
     padding: 0px 32px 0px 0px;
+	align-items: center;
 }
 .partner{
     flex: 0 1 10%;
-    padding: 10px 5px;
+    margin: 0 -8px;
+	padding: 20px;
+}
+.partner:last-child{
+    justify-content: none;
 }
 .partner img{
     object-fit: contain;
+	padding: 0 8px;
+}
+@media (max-width: 1500px){
+	.partners__text{
+		width: 60%;
+	}
 }
 @media (max-width: 1024px){
+	.partners__container{
+		margin: 0px auto 88px;
+	}
     .partners__text{
-        width: 80%;
+        width: 90%;
+		margin: auto;
+		padding: 0px 0px 0px 0px;
     }
-    .partners__row{
-        flex-wrap: wrap;
-    }
+	.partners__row{
+		width: 100%;
+	}
     .partner{
-        flex: 0 1 30%;
+        flex: 0 1 20%;
     }
+	.partner img{
+		object-fit: contain;
+	}
 }
 @media (max-width: 767.98px){
     .partners__text{
@@ -2186,6 +2222,13 @@ input[type=submit]{
         flex-direction: column;
         align-items: center;
     }
+	.partner{
+		flex: 0 1 10%;
+		padding: 0px 5px 88px 5px;
+	}
+	.partner:last-child{
+		padding: 0px 5px 0px 5px;
+	}
 }
 /*WHO*/
 .who__container{
@@ -2209,6 +2252,9 @@ input[type=submit]{
     flex: 0 1 40%;
     padding: 0px 0px 56px 0px;
 }
+.who__card:last-child{
+	padding: 0px;
+}
 .card__svg{
     object-fit: contain;
 }
@@ -2228,7 +2274,8 @@ input[type=submit]{
 }
 @media (max-width: 767.98px){
     .who__container{
-        margin: 0px auto 56px;
+		width: 100%;
+        margin: 0px auto;
     }
     .who__cards{
         flex-direction: column;
@@ -2238,31 +2285,6 @@ input[type=submit]{
         width: 90%;
     }
 }
-/*FEEDBACK*/
-.feedback__heading{
-    margin: auto;
-    width: 75%;
-    text-align: center;
-}
-.feedback__heading .partner__title{
-    color: #000;
-    padding: 0px 0px 48px 0px;
-    font-size: 3rem;
-    line-height: 3.5rem;
-}
-.feedback__heading .partner__text{
-    color: #000;
-    padding: 0px 0px 64px 0px;
-    font-size: 1rem;
-    line-height: 2rem;
-}
-  @media (max-width: 1024px){
-    .feedback__heading{
-        margin: auto;
-        width: 100%;
-    }
-  }
-/*.............................................BLOG PAGE...........................................*/
 /* FOOOTER*/
 .footer{
 	width: 100%;
