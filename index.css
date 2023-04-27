@@ -1146,7 +1146,7 @@ input[type=submit]{
 	}
 	.feedback-form{
 		padding: 32px 0px 32px 0px;
-		width: 80%;
+		width: 90%;
 		margin: auto;
 	}
 	.feedback__title{
@@ -1175,6 +1175,7 @@ input[type=submit]{
   @media (max-width: 767.98px){
 	.feedback__container{
 		padding: 0px;
+		width: 100%;
 	}
 	.feedback__content{
 		background-image: none;
