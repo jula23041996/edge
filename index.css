@@ -1008,86 +1008,101 @@ body {
 /*FEEDBACK*/
 .feedback__container{
 	margin: 100px auto 0px;
-	height: 100%;
+	width: 80%;
 }
 .feedback__content{
 	display: flex;
 	flex-direction: row;
-	width: 1106px;
+	width: 100%;
 	height: auto;
 	margin: auto;
-	background-image: url(bg_pc-feedback.svg);
+	padding: 32px;
+	background-image: url(.//img/bg_pc-feedback.svg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	border-radius: 32px;
+	justify-content: space-between;
 }
 .feedback-question{
 	display: flex;
 	flex-direction: column;
+	width: 38%;
+	padding: 0px 0px 0px 32px;
 }
 .feedback__title{
-	padding: 179px 0px 16px 64px;
-	font-size: 48px;
+	padding: 147px 0px 16px 0px;
+	font-size: 3rem;
 	font-weight: 700;
 	color: #fff;
-	line-height: 56px;
+	line-height: 3.5rem;
 }
 .feedback__text{
-	padding: 0px 0px 32px 64px;
+	padding: 0px 0px 32px 0px;
 	color: #fff;
 }
 .feedback-form{
-	margin: 32px 64px 32px 0px;
+	margin: 32px 32px 32px 0px;
+	width: 50%;
 }
 form{
-	width: 60%;
+	width: 100%;
 	background-color: #fff;
 	border-radius: 15px;
 	padding: 48px;
-	width: 100%;
 }
 .feedback-form__content{
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	margin: auto;	
 }
 .contact-us__title{
-	font-size: 47px;
-	line-height: 59px;
+	font-size: 2.9375rem;
+	line-height: 3.36rem;
 	color: #50AA57;
-	text-align: start;
+	text-align: center;
 }
 .inputs-names{
 	color: #50AA57;
-	font-size: 12px;
+	font-size: 0.75rem;
+	line-height: 1.25rem;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 }
 .inputs-contacts{
 	color: #50AA57;
-	font-size: 12px;
+	font-size: 0.75rem;
+	line-height: 1.25rem;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 }
 .input{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 	width: 49%;
 	padding: 16px 8px 16px 0px;
 }
 .input:last-child{
 	padding: 16px 0px 16px 0px;
 }
-
 input{
 	height: 54px;
 	border: 1px solid #50AA57;
 	border-radius: 8px;
 }
 .message{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 	color: #50AA57;
+	font-size: 0.75rem;
+	line-height: 1.25rem;
 }
 textarea{
+	padding: 8px 0px 0px 0px;
 	color: #50AA57;
 	height: 140px;
 	width: 100%;
@@ -1115,7 +1130,7 @@ input[type=submit]{
   }
   @media (max-width: 1024px){
 	.feedback__content{
-		background-image: url(bg_tablet_feedback.svg);
+		background-image: url(./img/bg_tablet_feedback.svg);
 		border-radius: 90px;
 		width: 98%;
 		margin: auto;
