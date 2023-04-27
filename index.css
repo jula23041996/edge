@@ -1949,9 +1949,6 @@ input[type=submit]{
 	display: none;
 	height: 100%;
   }
-  .hidden-subtext:hover{
-	transform: scale(1.05);
-  }
   .part__subtext{
 	color: #fff;
 	margin: 32px 32px 32px 32px;
@@ -1984,9 +1981,9 @@ input[type=submit]{
 	.sustainability__text{
 		width: 100%;
 	}
-	.hidden-subtext:hover{
-		transform: none;
-	  }
+  .sustainability__part:hover{
+	transform: none;
+  }
   }
 @media (max-width: 767.98px){
 		.sustainability__content{
