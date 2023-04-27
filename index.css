@@ -1679,7 +1679,6 @@ input[type=submit]{
 .verification__content{
 	display: flex;
 	flex-direction: column;
-	background-image: radial-gradient(80.96% 53.81% at 114.26% 50.04%, rgba(80, 170, 87, 0.8) 3.21%, rgba(101, 180, 107, 0.4) 30.21%, rgba(124, 191, 129, 0.2) 56.25%, rgba(255, 255, 255, 0) 88.04%);
 }
 .verification__title{
 	padding: 0px 0px 24px 0px;
