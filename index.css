@@ -1041,6 +1041,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	width: 38%;
+	text-align: start;
 	padding: 0px 0px 0px 32px;
 }
 .feedback__title{
@@ -1153,6 +1154,8 @@ input[type=submit]{
 	}
 	.feedback-question{
 		width: 100%;
+		padding: 0px 0px 0px 0px;
+		text-align: center;
 	}
 	.feedback-form{
 		padding: 32px 0px 32px 0px;
@@ -1168,7 +1171,7 @@ input[type=submit]{
 	.feedback__text{
 		width: 80%;
 		margin: auto;
-		padding: 0px 0px 32px 0px;
+		padding: 0px 0px 0px 0px;
 		text-align: center;
 		color: #fff;
 	}
