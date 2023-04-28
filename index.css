@@ -760,9 +760,6 @@ body {
 	}
 }
 @media (max-width: 767.98px){
-	.bussiness__container{
-		margin: 0px 0px 0px 80px;
-	}
 	.bussiness__content{
 		width: 100%;
 		margin: 0px auto;
