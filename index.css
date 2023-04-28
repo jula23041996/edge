@@ -432,10 +432,11 @@ body {
 	padding: 54px 0px 0px 0px;
 }
 .services__title{
+	width: 49%;
 	padding: 24px 15px 16px 0px; 
 }
 .services__text{
-	width: 50%;
+	width: 49%;
 	padding: 8px 0px 0px 0px;
 }
 .services-btn{
@@ -586,15 +587,16 @@ body {
 	margin: auto;
   }
   .industries-served{
-	width: 50%;
 	display: flex;
 	flex-direction: column;
 	height: auto;
 }
 .industries__title{
+	width: 70%;
 	padding: 24px 0px 20px 0px;
 }
 .industries__text{
+	width: 49%;
 	flex: 0 1 auto;
 	padding: 0px 0px 24px 0px;
 }
@@ -666,7 +668,10 @@ body {
 	}
 }
 @media (max-width: 1024px){
-	.industries-served{
+	.industries__title{
+		width: 90%;
+	}
+	.industries__text{
 		width: 90%;
 	}
 	.industries__class{
