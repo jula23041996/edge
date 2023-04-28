@@ -377,7 +377,7 @@ body {
 }
 @media (max-width: 1200px) {
 	.mission__content{
-		width: 98%;
+		width: 63%;
 		margin: 0px auto;
 		flex-direction: column;
 	}
@@ -729,7 +729,7 @@ body {
 .content-svg{
 	flex: 0 1 50%;
 	margin: auto;
-	padding: 81.5px 0px 81.5px 0px;
+	padding: 81.5px 0px 81.5px 60px;
 }
 .content-svg img{
 	object-fit: contain;
@@ -737,17 +737,17 @@ body {
 
 @media (max-width: 1200px){
 	.bussiness__content{
-		width: 98%;
+		width: 63%;
 		margin: 0px auto;
 		flex-direction: column;
 	}
-	.bussiness__text{
-		flex: 0 1 100%;
-		padding: 0px 0px 0px 0px;
-		text-align: center;
-	}
 	.content-text{
 		width: 100%;
+		text-align: center;
+		padding: 0px;
+	}
+	.bussiness__text{
+		flex: 0 1 100%;
 		text-align: center;
 	}
 	.content-svg{
