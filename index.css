@@ -368,12 +368,14 @@ body {
     width: 100%;
 	padding: 0px 0px 16px 0px;
 }
-.mission-btn{
-	padding: 16px 0px 32px 0px;
-}
 .mission-btn .button-name{
+	align-content: center;
+	margin: 14px 0px 0px 0px;
 	background-color: #006CA7;
 	color: #fff;
+}
+.mission-btn .button-name{
+
 }
 @media (max-width: 1200px) {
 	.mission__content{
@@ -386,12 +388,6 @@ body {
 		padding: 0px 0px 0px 0px;
 		text-align: center;
 	}
-	.mission-btn{
-		padding: 16px 0px 0px 0px;
-	}
-	.mission-btn .button-name{
-		margin: auto;
-	}
 	.mission-svg{
 		flex: 0 1 80%;
 		margin: auto;
@@ -399,6 +395,9 @@ body {
 	}
 	.mission-svg img{
 		width: 100%;
+	}
+	.mission-btn .button-name{
+		margin: 14px auto 0px;
 	}
 }
 @media (max-width: 767.98px) {
@@ -417,6 +416,7 @@ body {
 	.mission-svg{
 		padding: 32px 0px;
 	}
+
 }
 /*SERVICES*/
 .services-classification__container{
@@ -439,7 +439,7 @@ body {
 	padding: 8px 0px 0px 0px;
 }
 .services-btn{
-	padding: 8px 0px 54px 0px;
+	padding: 30px 0px 54px 0px;
 }
 .services__blocks{
 	padding: 0px 15px 54px 0px;
