@@ -2299,6 +2299,8 @@ input[type=submit]{
 .card__subtext{
     color: #42434D;
     width: 80%;
+	font-size: 1rem;
+	line-height: 1.25rem;
 }
 @media (max-width: 1024px){
     .who__card{
