@@ -2056,6 +2056,7 @@ input[type=submit]{
 	.credits-text{
 		flex: 0 1 100%;
 		padding: 0px 0px 80px 0px;
+		text-align: center;
 	}
     .credits__title{
         margin: auto;
@@ -2295,11 +2296,9 @@ input[type=submit]{
     width: 70%;
     padding: 16px 0px 32px 0px;
 }
-.card__subtext{
+.card__text{
     color: #42434D;
     width: 80%;
-	font-size: 1rem;
-	line-height: 1.25rem;
 }
 @media (max-width: 1024px){
     .who__card{
@@ -2315,7 +2314,7 @@ input[type=submit]{
         flex-direction: column;
         margin: auto;
     }
-    .card__subtext{
+    .card__text{
         width: 90%;
     }
 }
