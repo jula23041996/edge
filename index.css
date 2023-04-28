@@ -2065,7 +2065,7 @@ input[type=submit]{
     .credits__text{
         margin: auto;
         width: 100%;
-        text-align: start;
+        text-align: center;
     }
 }
 @media (max-width: 767.98px) {
@@ -2319,7 +2319,6 @@ input[type=submit]{
         width: 90%;
     }
 }
-/*FEEDBACK*/
 .feedback__heading{
     margin: auto;
     width: 75%;
@@ -2335,12 +2334,10 @@ input[type=submit]{
 .partner__text{
     color: #676979;
     padding: 0px 0px 32px 0px;
-    font-size: 1rem;
-    line-height: 2rem;
 }
   @media (max-width: 1024px){
     .feedback__heading{
-		text-align: start;
+		text-align: center;
         width: 100%;
     }
   }
