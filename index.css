@@ -2355,10 +2355,10 @@ input[type=submit]{
 	width: 100%;
 	height: 560px;
 	background-color: #E8F1F2;
-	background-image: url(post_main-svg.svg);
+	background-image: url(./img/post_main-svg.svg);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: contain;
+	background-size: 100% 100%;
 	border-radius: 32px;
 }
 .guige__svg-box{
@@ -2368,7 +2368,7 @@ input[type=submit]{
 	border-radius: 32px;
 	background-color: #fff;
 	opacity: 0.9;
-	background-image: url(goals_svg\(main_post\).svg);
+	background-image: url(./img/goals_svg\(main_post\).svg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
@@ -2380,6 +2380,11 @@ input[type=submit]{
 	font-size: 3rem;
 	line-height: 3.3625rem;
 }
+@media (max-width: 1024px){
+	.guige__svg-box{
+		height: 40%;
+	}
+}
 @media (max-width: 767.98px){
 	.guide__container{
 		width: 100%;
@@ -2387,6 +2392,10 @@ input[type=submit]{
 	}
 	.guide__svg{
 		border-radius: 0px;
+	}
+	.guige__svg-box{
+		height: 30%;
+		background-color: none;
 	}
 	.guide__title{
 		padding: 32px 15px 88px 15px;
