@@ -2341,6 +2341,142 @@ input[type=submit]{
         width: 100%;
     }
   }
+/*.............................................POST...........................................*/
+/*GUIDE*/
+.guide__container{
+	width: 80%;
+	margin: 64px auto 0px;
+}
+.guide__content{
+	width: 100%;
+}
+.guide__svg{
+	display: flex;
+	align-content: baseline;
+	width: 100%;
+	height: 560px;
+	background-color: #E8F1F2;
+	background-image: url(post_main-svg.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	border-radius: 32px;
+}
+.guige__svg-box{
+	width: 60%;
+	height: 60%;
+	margin: auto;
+	border-radius: 32px;
+	background-color: #fff;
+	opacity: 0.9;
+	background-image: url(goals_svg\(main_post\).svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+.guide__title{
+	width: 100%;
+	padding: 32px 0px 88px 0px;
+	text-align: start;
+	font-size: 3rem;
+	line-height: 3.3625rem;
+}
+@media (max-width: 767.98px){
+	.guide__container{
+		width: 100%;
+		padding: 0px;
+	}
+	.guide__svg{
+		border-radius: 0px;
+	}
+	.guide__title{
+		padding: 32px 15px 88px 15px;
+	}
+}
+/*Articles*/
+.articles{
+	width: 80%;
+	margin: auto;
+}
+.subtitle{
+	color: #000;
+}
+/*Article with big svg*/
+.big-articles{
+	width: 100%;
+}
+.big-articles__box{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.big-article{
+	flex: 0 1 47%;
+	padding: 0px 0px 88px 0px;
+}
+.big-article-svg{
+	width: 100%;
+	padding: 0px 0px 32px 0px;
+}
+.big-article__subtitle{
+	width: 100%;
+}
+.big-article-svg img{
+	width: 100%;
+}
+/*Article with small svg*/
+.small-articles{
+	width: 100%;
+}
+.small-articles__box{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.small-article{
+	flex: 0 1 30%;
+	padding: 0px 0px 88px 0px;
+}
+.small-article-svg{
+	width: 100%;
+	padding: 0px 0px 32px 0px;
+}
+.small-article__subtitle{
+	width: 100%;
+}
+.small-article-svg img{
+	width: 100%;
+}
+.articles-btn{
+	margin: 54px 0px 80px 0px;
+	margin: auto;
+	color: #fff;
+	background-color: #50AA57;
+}
+@media (max-width: 767.98px){
+	.articles{
+		width: 100%;
+		margin: auto;
+		padding: 0 15px;
+	}
+	.small-articles__box{
+		flex-direction: column;
+		padding: 0px 0px 0px 0px;
+	}
+	.big-articles__box{
+		flex-direction: column;
+		padding: 0px 0px 0px 0px;
+	}
+	.big-article{
+		padding: 0px 0px 32px 0px;
+	}
+	.small-article{
+		padding: 0px 0px 32px 0px;
+	}
+}
+/*.................................................POST...........................................*/
 /* FOOOTER*/
 .footer{
 	width: 100%;
