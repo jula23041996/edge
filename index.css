@@ -2360,6 +2360,7 @@ input[type=submit]{
 	padding: 4px 0px;
 }
 .footer__email{
+        text-align: end;
 	padding: 0px 160px 0px 0px;
 
 }
