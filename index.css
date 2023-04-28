@@ -591,7 +591,7 @@ body {
 	height: auto;
 }
 .industries__title{
-	width: 70%;
+	width: 49%;
 	padding: 24px 0px 20px 0px;
 }
 .industries__text{
@@ -2060,7 +2060,7 @@ input[type=submit]{
     .credits__title{
         margin: auto;
         width: 100%;
-        text-align: start;
+        text-align: center;
     }
     .credits__text{
         margin: auto;
