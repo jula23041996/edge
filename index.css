@@ -1298,7 +1298,7 @@ input[type=submit]{
 }
 .sidenav__item {
 	margin: 5px;
-	padding: 10px 0px 10px 0px;
+	padding: 5px 0px 5px 0px;
 	text-align: start;
 }
 .sidenav__link {
@@ -1310,7 +1310,7 @@ input[type=submit]{
 }
 .sidenav a{
 	display: block;
-	padding: 9px 32px 9px 32px;
+	padding: 5px 32px 5px 32px;
 }
   /* When you mouse over the navigation links, change their color */
   .sidenav a:hover{
