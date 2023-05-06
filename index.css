@@ -584,126 +584,93 @@ body {
 }
 /*INDUSTRIES*/
 .industries__container{
-	width: 80%;
+	width: 100%;
 	margin: auto;
 }
 .industries__content{
 	display: flex;
-	flex-direction: column;
-	height: 100%;
-	color: #fff;
-	width: 100%;
+	flex-direction: row;
+	width: 80%;
 	margin: auto;
+	align-items: center;
   }
-  .industries-served{
+.industries-served{
+	flex: 0 1 40%;
 	display: flex;
 	flex-direction: column;
 	height: auto;
 }
 .industries__title{
-	width: 49%;
+	width: 100%;
+	color: #50AA57;
 	padding: 24px 0px 20px 0px;
 }
 .industries__text{
-	width: 49%;
+	width: 100%;
 	flex: 0 1 auto;
-	padding: 0px 0px 24px 0px;
+	padding: 0px 0px 0px 0px;
 }
 .industries-box{
+	flex: 0 1 60%;
+	padding: 64px 0px 0px 60px;
 	margin: auto;
-	width: 100%;
-	background-image: radial-gradient(#90C35D 3%, #50AA57 97%);
-	background-repeat: no-repeat;
-	border-radius: 36px;
-	box-shadow: 0px 32px 64px -4px rgba(0, 0, 0, 0.12), 0px 12px 24px -2px rgba(0, 0, 0, 0.06);
-  }
+}
 .industries__classes{
-	margin: auto;
-	height: 100%;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	column-gap: 8px;
+	row-gap: 8px;
 }
 .industries__class{
-	flex: 0 1 33.333%;
+	flex: 0 0 30%;
 	display: flex;
 	flex-direction: column;
-	padding: 20px;
+	padding: 16px 24px 24px 24px;
+	background-color: #E8F1F2;
+	border-radius: 20px;
+}
+.industries__class:hover{
+	box-shadow: 0px 12px 24px -2px rgba(0, 0, 0, 0.12);
+	transform: scale(1.05);
+	transition: all 0.3s ease-in-out;
 }
 .class__image{
-	width: 110px;
-	height: 110px;
-	margin: auto;
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: center;
+	padding: 36.33px 24px 24px 76.67px;
 }
-.svg1{
-	background-image: url(energy.svg);
-}
-.svg2{
-	background-image: url(waste.svg);
-}
-.svg3{
-	background-image: url(forest.svg);
-}
-.svg4{
-	background-image: url(transportation.svg);
-}
-.svg5{
-	background-image: url(manufactoring.svg);
-}
-.svg6{
-	background-image: url(mining.svg);
-}
-.svg7{
-	background-image: url(agriculture.svg);
-}
-.svg8{
-	background-image: url(constructing.svg);
-}
-.svg9{
-	background-image: url(retail.svg);
+.class__image img{
+	object-fit: contain;
 }
 .class__text{
-	margin: auto;
-	text-align: center;
-	padding: 5px;
-}
-@media (max-width: 1236px){
-	.industries__content{
-		padding: 0px 15px;
-	}
+	color: #50AA57;
+	text-align: start;
 }
 @media (max-width: 1024px){
+	.industries__content{
+		flex-direction: column;
+	}
 	.industries__title{
-		width: 90%;
+		width: 75%;
 	}
 	.industries__text{
-		width: 90%;
+		width: 75%;
 	}
-	.industries__class{
-		padding: 64px;
-	}
-
 }
 @media (max-width: 767.98px){
 	.industries__container{
+		padding: 64px 15px;
+	}
+	.industries__content{
 		width: 100%;
-		padding: 64px 0px;
 	}
-	.industries-served{
+	.industries-box{
+		flex: 0 1 100%;
+		padding: 32px 0px 0px 60px;
+	}
+}
+@media (max-width: 390px){
+	.industries__text{
 		width: 100%;
-		text-align: start;
-		flex-direction: column;
-	}
-	.industries__classes{
-		width: 98%;
-		margin: auto;
-	}
-	.industries__class{
-		margin: auto;
 	}
 }
 
@@ -730,6 +697,7 @@ body {
 	padding: 54px 0px 0px 0px;
 }
 .bussiness__title{
+	color: #006CA7;
 	width: 100%;
 	padding: 24px 0px 16px 0px;
 }
