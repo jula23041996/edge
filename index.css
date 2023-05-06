@@ -363,6 +363,7 @@ body {
 .mission__title{
 	width: 100%;
 	padding: 24px 0px 16px 0px;
+	color: #006CA7;
 }
 .mission__text{
     width: 100%;
@@ -429,21 +430,29 @@ body {
 	margin: auto;
 }
 .services__content .label{
+	margin: auto;
 	padding: 54px 0px 0px 0px;
 }
 .services__title{
-	width: 49%;
-	padding: 24px 15px 16px 0px; 
+	color: #50AA57;
+	width: 74%;
+	margin: auto;
+	text-align: center;
+	padding: 24px 0px 16px 0px; 
 }
 .services__text{
-	width: 49%;
+	width: 74%;
+	margin: auto;
+	text-align: center;
 	padding: 8px 0px 0px 0px;
 }
 .services-btn{
+	margin: auto;
 	padding: 30px 0px 54px 0px;
 }
 .services__blocks{
-	padding: 0px 15px 54px 0px;
+	margin: auto;
+	padding: 0px 0px 54px 0px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
