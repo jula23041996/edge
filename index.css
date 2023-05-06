@@ -338,7 +338,7 @@ body {
 }
 /*MISSION*/
 .mission__content{
-	width: 80%;
+	width: 60%;
 	margin: auto;
 	display: flex;
 	flex-direction: row;
@@ -425,7 +425,7 @@ body {
 .services__content{
 	display: flex;
 	flex-direction: column;
-	width: 80%;
+	width: 60%;
 	margin: auto;
 }
 .services__content .label{
@@ -525,7 +525,7 @@ body {
 .managment__content{
 	display: flex;
 	flex-direction: column;
-	width: 80%;
+	width: 60%;
 	margin: 180px auto;
 	height: auto;
 	background-color: #006CA7;
@@ -575,7 +575,7 @@ body {
 }
 /*INDUSTRIES*/
 .industries__container{
-	width: 80%;
+	width: 60%;
 	margin: auto;
 }
 .industries__content{
@@ -707,7 +707,7 @@ body {
 .bussiness__content{
 	display: flex;
 	flex-direction: row;
-	width: 80%;
+	width: 60%;
 	margin: auto;
 	align-items: center;
 }
@@ -933,7 +933,7 @@ body {
 	padding: 0px 15px;
 }
 .blog__content{
-	width: 80%;
+	width: 60%;
 	display: flex;
 	flex-direction: column;
 	margin: 180px auto;
@@ -1022,7 +1022,7 @@ body {
 /*FEEDBACK*/
 .feedback__container{
 	margin: 100px auto 0px;
-	width: 80%;
+	width: 60%;
 }
 .feedback__content{
 	display: flex;
