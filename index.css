@@ -136,6 +136,7 @@ body {
 }
 .header__menu {
 	flex: 1 1 auto;
+	padding: 0px 95px 0px 0px;
 }
 .header__butt {
 	position: relative;
@@ -156,6 +157,9 @@ body {
 }
 .menu__item {
 	margin: 0px 40px 0px 0px;
+}
+.menu__item:last-child {
+	margin: 0px 0px 0px 0px;
 }
 .menu__link {
 	text-transform: uppercase;
