@@ -1009,7 +1009,7 @@ body {
 	height: auto;
 	margin: auto;
 	padding: 32px;
-	background-image: url(bg_pc-feedback.svg);
+	background-image: url(.//img/bg_pc-feedback.svg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	border-radius: 32px;
@@ -1017,9 +1017,9 @@ body {
 }
 .feedback-question{
 	display: flex;
+	text-align: start;
 	flex-direction: column;
 	width: 38%;
-	text-align: start;
 	padding: 0px 0px 0px 32px;
 }
 .feedback__title{
@@ -1038,7 +1038,8 @@ body {
 	width: 50%;
 }
 form{
-	width: 100%;
+	width: 80%;
+	margin: auto;
 	background-color: #fff;
 	border-radius: 15px;
 	padding: 48px;
@@ -1121,9 +1122,9 @@ input[type=submit]{
   input[type=submit]:hover{
 	transform: scale(1.1, 1.1);
   }
-  @media (max-width: 1024px){
+  @media (max-width: 1200px){
 	.feedback__content{
-		background-image: url(bg_tablet_feedback.svg);
+		background-image: url(./img/bg_tablet_feedback.svg);
 		border-radius: 90px;
 		width: 98%;
 		margin: auto;
@@ -1173,6 +1174,9 @@ input[type=submit]{
 		background-color: #50AA57;
 		width: 100%;
 		border-radius: 0px;
+	}
+	form{
+		width: 90%;
 	}
 	input{
 		width: 100%;
