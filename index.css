@@ -2348,27 +2348,13 @@ input[type=submit]{
 }
 .guide__svg{
 	display: flex;
-	align-content: baseline;
 	width: 100%;
 	height: 560px;
-	background-color: #E8F1F2;
-	background-image: url(post_main-svg.svg);
+	background-image: url(main_svg_post.png);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: contain;
+	background-size: cover;
 	border-radius: 32px;
-}
-.guige__svg-box{
-	width: 60%;
-	height: 60%;
-	margin: auto;
-	border-radius: 32px;
-	background-color: #fff;
-	opacity: 0.9;
-	background-image: url(goals_svg\(main_post\).svg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: contain;
 }
 .guide__title{
 	width: 100%;
@@ -2387,6 +2373,11 @@ input[type=submit]{
 	}
 	.guide__title{
 		padding: 32px 15px 88px 15px;
+	}
+}
+@media (max-width: 420px){
+	.guide__svg{
+		background-size: contain;
 	}
 }
 /*Articles*/
