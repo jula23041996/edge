@@ -1021,7 +1021,7 @@ body {
 	height: auto;
 	margin: auto;
 	padding: 32px;
-	background-image: url(.//img/bg_pc-feedback.svg);
+	background-image: url(bg_pc-feedback.svg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	border-radius: 32px;
@@ -1136,7 +1136,7 @@ input[type=submit]{
   }
   @media (max-width: 1200px){
 	.feedback__content{
-		background-image: url(./img/bg_tablet_feedback.svg);
+		background-image: url(bg_tablet_feedback.svg);
 		border-radius: 90px;
 		width: 98%;
 		margin: auto;
