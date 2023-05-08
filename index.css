@@ -2385,9 +2385,6 @@ input[type=submit]{
 	width: 80%;
 	margin: auto;
 }
-.subtitle{
-	color: #000;
-}
 /*Article with big svg*/
 .big-articles{
 	width: 100%;
@@ -2413,6 +2410,7 @@ input[type=submit]{
 }
 .big-article__subtitle{
 	width: 100%;
+	color: #000;
 }
 .big-article__subtitle:hover{
 	text-decoration: underline;
@@ -2445,6 +2443,7 @@ input[type=submit]{
 }
 .small-article__subtitle{
 	width: 100%;
+	color: #000;
 }
 .small-article__subtitle:hover{
 	text-decoration: underline;
