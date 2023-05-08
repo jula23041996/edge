@@ -842,37 +842,37 @@ body {
 	color: #fff;
 	padding: 16px 64px 81px 34px;
 }
-.swiper-slide1{
+.swiper-slide1_1{
 	background-image: url(slide1.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-.swiper-slide2{
+.swiper-slide1_2{
 	background-image: url(slide2.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-.swiper-slide3{
+.swiper-slide1_3{
 	background-image: url(slide3.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-.swiper-slide4{
+.swiper-slide1_4{
 	background-image: url(slide4.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-.swiper-slide5{
+.swiper-slide1_5{
 	background-image: url(slide5.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-.swiper-slide6{
+.swiper-slide1_6{
 	background-image: url(slide6.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-.swiper-slide7{
+.swiper-slide1_7{
 	background-image: url(slide7.png);
 	background-repeat: no-repeat;
 	background-size: cover;
