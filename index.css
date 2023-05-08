@@ -1407,7 +1407,7 @@ input[type=submit]{
 .column__item{
 	display: flex;
 	flex-direction: column;
-	padding: 0px 0px 88px 0px;
+	padding: 0px 0px 32px 0px;
 }
 .column__item:first{
 	padding: 0px 0px 0px 58px;
