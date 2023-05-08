@@ -2341,7 +2341,7 @@ input[type=submit]{
 /*CHIEF-ARTICLE*/
 .chief-article__container{
 	width: 80%;
-	margin: 128px auto 0px;
+	margin: 64px auto 0px;
 }
 .chief-article__content{
 	margin: auto;
@@ -2351,7 +2351,7 @@ input[type=submit]{
 	display: inline-block;
 }
 .chief-article__button:hover{
-	transform: scale(1.1);
+	transform: scale(1.01);
 	transition: transform 0.3s ease-in-out;
 }
 .chief-article__svg{
