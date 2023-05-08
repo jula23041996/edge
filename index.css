@@ -1209,12 +1209,14 @@ input[type=submit]{
 /*Головне зображення*/
 .hero-image__container{
 	margin: 0px;
-        background-image: url(services_hero-image.png);
-	height: 990px;
+	padding: 0px;
+    background-image: url(services_hero-image.png);
+	height: 600px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
 	z-index: 49;
+	padding: 0px;
 }
 .hero__heading{
 	padding: 0 15px;
@@ -1241,6 +1243,7 @@ input[type=submit]{
   @media (max-width: 528px){
 	.heading2{
 		text-align: start;
+		font-size: 4rem;
 		}
 }
 /* Контейнер для бокового меню та послуг*/
