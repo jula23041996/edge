@@ -23,7 +23,65 @@
                             <li class="menu__item"><a href="index.html" target="_self" class="menu__link">Home</a></li>
                             <li class="menu__item"><a href="services.html" target="_self" class="menu__link">Our Services</a></li>
                             <li class="menu__item"><a href="post.html" target="_self" class="menu__link">Our Blog</a></li>
-                            <li class="menu__item"><a href="#" class="menu__link">Contact Us</a></li>
+                            <!-- Trigger/Open The Modal -->
+                            <li class="menu__item"><a href="#" class="menu__link" id="myBtn">Contact Us</a></li>
+                            <!-- The Modal -->
+                            <div id="myModal" class="modal">
+                                <!-- Modal content -->
+                                <div class="modal-content">
+                                    <div class="contacts_form">
+                                        <div class="contact">
+                                            <div class="contact__title title">
+                                                <p>
+                                                    Have a question or feedback?
+                                                </p>
+                                            </div>
+                                            <div class="contact__text text">
+                                               <p>
+                                                Contact us today to learn more about our services and begin your journey to net zero.                             
+                                               </p> 
+                                            </div>
+                                        </div>
+                                        <div class="feedback-form">
+                                            <form action="#" method="get">
+                                                <div class="feedback-form__content">
+                                                    <div class="contact-us__title">
+                                                        Contact Us
+                                                    </div>
+                                                    <div class="inputs-names">
+                                                        <div class="input">
+                                                            <label for="firstName">First name:</label>
+                                                            <input type="text" tabindex="1" id="firstName" name="firstName" value="">
+                                                        </div>
+                                                        <div class="input">
+                                                            <label for="lastName">Last name:</label>
+                                                            <input type="text" tabindex="2" id="lastName" name="lastName" value="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="inputs-contacts">
+                                                        <div class="input">
+                                                            <label for="e-mail">E-mail:</label>
+                                                            <input type="e-mail" tabindex="3" id="e-mail" name="e-mail" value="">
+                                                        </div>
+                                                        <div class="input">
+                                                            <label for="phoneNumber">Phone number:</label>
+                                                            <input type="tel" tabindex="4" id="phoneNumber" name="phoneNumber" value="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="message">
+                                                    <label for="Message">Message:</label>
+                                                    <textarea name="Message" tabindex="5" id="message" required></textarea>
+                                                    </div>
+                                                    <div class="button-send">
+                                                    <input type="submit" value="Submit">
+                                                    </div>
+                                                </div>					
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <span class="close">&times;</span>
+                                </div>
+                                </div>
                         </ul>
                     </nav>
                 </div>
