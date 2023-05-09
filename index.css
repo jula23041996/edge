@@ -1201,6 +1201,7 @@ input{
 	color: #50AA57;
 	font-size: 0.75rem;
 	line-height: 1.25rem;
+	padding: 16px 8px 16px 0px;
 }
 textarea{
 	padding: 8px 0px 0px 0px;
