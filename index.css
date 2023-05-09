@@ -1065,12 +1065,11 @@ body {
 .post__subtitle{
 	color: #000;
 }
-.blog-btn{
+.blog__content .blog-btn{
 	color: #fff;
 	margin: auto;
 	background-color: #50AA57;
 }
-
 @media (max-width: 1024px){
 	.blog__content{
 		display: flex;
