@@ -21,7 +21,65 @@
                             <li class="menu__item"><a href="index.html" target="_self" class="menu__link">Home</a></li>
                             <li class="menu__item"><a href="services.html" target="_self" class="menu__link">Our Services</a></li>
                             <li class="menu__item"><a href="post.html" target="_self" class="menu__link">Our Blog</a></li>
-                            <li class="menu__item"><a href="#" class="menu__link">Contact Us</a></li>
+                                                        <!-- Trigger/Open The Modal -->
+                            <li class="menu__item"><a href="#" class="menu__link" id="myBtn">Contact Us</a></li>
+                            <!-- The Modal -->
+                            <div id="myModal" class="modal">
+                                <!-- Modal content -->
+                                <div class="modal-content">
+                                    <div class="contacts_form">
+                                        <div class="contact">
+                                            <div class="contact__title title">
+                                                <p>
+                                                    Have a question or feedback?
+                                                </p>
+                                            </div>
+                                            <div class="contact__text text">
+                                               <p>
+                                                Contact us today to learn more about our services and begin your journey to net zero.                             
+                                               </p> 
+                                            </div>
+                                        </div>
+                                        <div class="feedback-form">
+                                            <form action="#" method="get">
+                                                <div class="feedback-form__content">
+                                                    <div class="contact-us__title">
+                                                        Contact Us
+                                                    </div>
+                                                    <div class="inputs-names">
+                                                        <div class="input">
+                                                            <label for="firstName">First name:</label>
+                                                            <input type="text" tabindex="1" id="firstName" name="firstName" value="">
+                                                        </div>
+                                                        <div class="input">
+                                                            <label for="lastName">Last name:</label>
+                                                            <input type="text" tabindex="2" id="lastName" name="lastName" value="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="inputs-contacts">
+                                                        <div class="input">
+                                                            <label for="e-mail">E-mail:</label>
+                                                            <input type="e-mail" tabindex="3" id="e-mail" name="e-mail" value="">
+                                                        </div>
+                                                        <div class="input">
+                                                            <label for="phoneNumber">Phone number:</label>
+                                                            <input type="tel" tabindex="4" id="phoneNumber" name="phoneNumber" value="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="message">
+                                                    <label for="Message">Message:</label>
+                                                    <textarea name="Message" tabindex="5" id="message" required></textarea>
+                                                    </div>
+                                                    <div class="button-send">
+                                                    <input type="submit" value="Submit">
+                                                    </div>
+                                                </div>					
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <span class="close">&times;</span>
+                                </div>
+                                </div>
                         </ul>
                     </nav>
                 </div>
@@ -37,7 +95,7 @@
                         <div class="chief-article__content">
                             <a href="post1.html" target="_self" class="chief-article__button">
                             <div class="chief-article__svg">
-                                <img src="./css/img/chief-article_svg.png" alt="">
+                                <img src="chief-article_svg.png" alt="">
                             </div>
                             <div class="chief-article__title title">
                                 <p>
@@ -51,7 +109,7 @@
             <section class="articles">
                 <div class="big-articles">
                     <div class="big-articles__box">
-                        <a href="post1.html" target="_self" class="big-article__button">
+                        <a href="post2.html" target="_self" class="big-article__button">
                             <div class="big-article">
                                 <div class="big-article-svg">
                                     <img src="blog_svg1.svg" alt="svg1">
@@ -63,7 +121,7 @@
                                     </div>
                             </div>
                         </a>
-                        <a href="post2.html" target="_self" class="big-article__button">
+                        <a href="post3.html" target="_self" class="big-article__button">
                             <div class="big-article">
                                 <div class="big-article-svg">
                                     <img src="blog_svg2.svg" alt="svg2">
@@ -79,7 +137,7 @@
                 </div>
                 <div class="small-articles">
                     <div class="small-articles__box">
-                        <a href="post3.html" target="_self" class="small-article__button">
+                        <a href="post4.html" target="_self" class="small-article__button">
                             <div class="small-article">
                                 <div class="small-article-svg">
                                     <img src="blog_svg_small1.svg" alt="">
@@ -91,7 +149,7 @@
                                 </div>
                             </div>
                         </a>
-                        <a href="post4.html" target="_self" class="small-article__button">
+                        <a href="post5.html" target="_self" class="small-article__button">
                             <div class="small-article">
                                 <div class="small-article-svg">
                                     <img src="blog_svg_small2.svg" alt="">
@@ -103,7 +161,7 @@
                                 </div>
                             </div>
                         </a>
-                        <a href="post5.html" target="_self" class="small-article__button">
+                        <a href="post6.html" target="_self" class="small-article__button">
                             <div class="small-article">
                                 <div class="small-article-svg">
                                     <img src="blog_svg_small3.svg" alt="">
@@ -119,7 +177,7 @@
                 </div>
                 <div class="big-articles">
                     <div class="big-articles__box">
-                        <a href="post6.html" target="_self" class="big-article__button">
+                        <a href="post7.html" target="_self" class="big-article__button">
                             <div class="big-article">
                                 <div class="big-article-svg">
                                     <img src="blog_svg3.svg" alt="svg3">
@@ -131,7 +189,7 @@
                                 </div>
                             </div>
                         </a>
-                        <a href="post7.html" target="_self" class="big-article__button">
+                        <a href="post8.html" target="_self" class="big-article__button">
                             <div class="big-article">
                                 <div class="big-article-svg">
                                     <img src="blog_svg4.svg" alt="svg4">
@@ -147,7 +205,7 @@
                 </div>
                 <div class="small-articles">
                     <div class="small-articles__box">
-                        <a href="post8.html" target="_self" class="small-article__button">
+                        <a href="post9.html" target="_self" class="small-article__button">
                             <div class="small-article">
                                 <div class="small-article-svg">
                                     <img src="blog_svg_small4.svg" alt="">
@@ -159,7 +217,7 @@
                                 </div>
                             </div>
                         </a>
-                        <a href="post9.html" target="_self" class="small-article__button">
+                        <a href="post10.html" target="_self" class="small-article__button">
                             <div class="small-article">
                                 <div class="small-article-svg">
                                     <img src="blog_svg_small5.svg" alt="">
@@ -171,7 +229,7 @@
                                 </div>
                             </div>
                         </a>
-                        <a href="post10.html" target="_self" class="small-article__button">
+                        <a href="post11.html" target="_self" class="small-article__button">
                             <div class="small-article">
                                 <div class="small-article-svg">
                                     <img src="blog_svg_small6.svg" alt="">
