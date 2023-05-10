@@ -1193,6 +1193,13 @@ input{
 	height: 54px;
 	border: 1px solid #50AA57;
 	border-radius: 8px;
+	padding: 10px;
+	font-size: 24px
+}
+input:focus {
+	outline: none;
+	border: 1px solid #7B7D8E;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.12);
 }
 .message{
 	display: flex;
@@ -1210,6 +1217,11 @@ textarea{
 	width: 100%;
 	border: 1px solid #50AA57;
 	border-radius: 8px;
+}
+textarea:focus {
+	outline: none;
+	border: 1px solid #7B7D8E;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.12);
 }
 .button-send{
 	margin: auto;
