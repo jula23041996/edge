@@ -1,3 +1,32 @@
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal
+if (btn) {
+  btn.onclick = function() {
+    modal.style.display = "block";
+  }
+}
+
+// When the user clicks on <span> (x), close the modal
+if (span) {
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (modal && event.target === modal) {
+    modal.style.display = "none";
+  }
+}
 //SWIPER HOMEPAGE
 // Инициализируем Swiper
 let myImageSlider1 = new Swiper('#swiper-container1', {
@@ -173,37 +202,6 @@ let myImageSlider1 = new Swiper('#swiper-container1', {
 	// элементов слайда
 	observeSlideChildren: true,
 });
-// Get the modal
-var modal = document.getElementById("myModal");
-
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn");
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on the button, open the modal
-if (btn) {
-  btn.onclick = function() {
-    modal.style.display = "block";
-  }
-}
-
-// When the user clicks on <span> (x), close the modal
-if (span) {
-  span.onclick = function() {
-    modal.style.display = "none";
-  }
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (modal && event.target === modal) {
-    modal.style.display = "none";
-  }
-}
-
-
 // Fixed navbar
 const sidenav = document.getElementById("mySidenav");
 const heroImage = document.querySelector(".hero-image__container");
