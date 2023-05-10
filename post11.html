@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Post</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header id="open" class="header">
+            <div id="close" class="header__container">
+                <div class="header__logo">
+                    <img src="./css/img/Logo.svg" alt="Logo">
+                </div>                
+                <div class="header__menu menu">
+                    <nav class="menu__body">
+                        <ul class="menu__list">
+                            <li class="menu__item"><a href="index.html" target="_self" class="menu__link">Home</a></li>
+                            <li class="menu__item"><a href="services.html" target="_self" class="menu__link">Our Services</a></li>
+                            <li class="menu__item"><a href="post.html" target="_self" class="menu__link">Our Blog</a></li>
+                                                        <!-- Trigger/Open The Modal -->
+                                                        <li class="menu__item"><a href="#" class="menu__link" id="myBtn">Contact Us</a></li>
+                                                        <!-- The Modal -->
+                                                        <div id="myModal" class="modal">
+                                                            <!-- Modal content -->
+                                                            <div class="modal-content">
+                                                                <div class="contacts_form">
+                                                                    <div class="contact">
+                                                                        <div class="contact__title title">
+                                                                            <p>
+                                                                                Have a question or feedback?
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="contact__text text">
+                                                                           <p>
+                                                                            Contact us today to learn more about our services and begin your journey to net zero.                             
+                                                                           </p> 
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="feedback-form">
+                                                                        <form action="#" method="get">
+                                                                            <div class="feedback-form__content">
+                                                                                <div class="contact-us__title">
+                                                                                    Contact Us
+                                                                                </div>
+                                                                                <div class="inputs-names">
+                                                                                    <div class="input">
+                                                                                        <label for="firstName">First name:</label>
+                                                                                        <input type="text" tabindex="1" id="firstName" name="firstName" value="">
+                                                                                    </div>
+                                                                                    <div class="input">
+                                                                                        <label for="lastName">Last name:</label>
+                                                                                        <input type="text" tabindex="2" id="lastName" name="lastName" value="">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="inputs-contacts">
+                                                                                    <div class="input">
+                                                                                        <label for="e-mail">E-mail:</label>
+                                                                                        <input type="e-mail" tabindex="3" id="e-mail" name="e-mail" value="">
+                                                                                    </div>
+                                                                                    <div class="input">
+                                                                                        <label for="phoneNumber">Phone number:</label>
+                                                                                        <input type="tel" tabindex="4" id="phoneNumber" name="phoneNumber" value="">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="message">
+                                                                                <label for="Message">Message:</label>
+                                                                                <textarea name="Message" tabindex="5" id="message" required></textarea>
+                                                                                </div>
+                                                                                <div class="button-send">
+                                                                                <input type="submit" value="Submit">
+                                                                                </div>
+                                                                            </div>					
+                                                                        </form>
+                                                                    </div>
+                                                                </div>
+                                                                <span class="close">&times;</span>
+                                                            </div>
+                                                            </div>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header__butt">
+                    <a href="#open" class="icon-menu"><span></span></a>
+                    <a href="#close" class="close-icon-menu"></a>
+                </div>               
+            </div>
+        </header>
+        <main class="main">
+            <section class="chief-article">
+                <div class="chief-article__container">
+                        <div class="chief-article__content">
+                            <div class="article__title title">
+                                <p>
+                                    Which Industries are Covered <br>by the Paris Agreement?
+                                </p>
+                            </div>
+                            <div class="chief-article__svg">
+                                <img src="./css/img/main-svg_post12.svg" alt="">
+                            </div>
+                        </div>
+                </div>
+            </section>
+            <section class="article-text">
+                <div class="acrticle-text__container">
+                    <div class="article-text__content">
+                        <p>
+                            The Paris Agreement is an international treaty aimed at combating climate change by limiting global temperature increase well below 2 degrees Celsius above pre-industrial levels, with an ambition to limit the increase to 1.5 degrees Celsius. The agreement itself does not specifically regulate industries; rather, it establishes a framework for countries to set their own climate targets and develop action plans, known as Nationally Determined Contributions (NDCs), to achieve those targets.
+                        </p>
+                        <p>
+                            However, some industries are indirectly affected by the Paris Agreement, as countries design and implement policies to reduce greenhouse gas emissions and transition to a low-carbon economy. 
+                        </p>
+                        <div class="effort__subtitle subtitle">
+                            These industries include, but are not limited to:
+                        </div>
+                        <div class="efforts">
+                            <div class="effort">
+                                <div class="effort_svg effort_svg1">
+                                </div>
+                                <div class="effort__subtitle subtitle">Energy production</div>
+                                <div class="effort-text">
+                                    <p>
+                                        <span class="grey-text">The agreement encourages a shift toward renewable energy sources like wind, solar, and hydro power, which affects the fossil fuel industry, including coal, oil, and natural gas.</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="effort">
+                                <div class="effort_svg effort_svg2">
+                                </div>
+                                <div class="effort__subtitle subtitle">Transportation:</div>
+                                <div class="effort-text">
+                                    <p>
+                                        <span class="grey-text">The transportation sector, including automobiles, aviation, and maritime, is influenced by policies promoting fuel efficiency, electrification, and alternative fuels.</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="effort">
+                                <div class="effort_svg effort_svg3">
+                                </div>
+                                <div class="effort__subtitle subtitle">Manufactoring:</div>
+                                <div class="effort-text">
+                                    <p>
+                                        <span class="grey-text">Heavy industries like cement, steel, and chemicals are affected by regulations aiming to reduce their carbon footprints.</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="effort">
+                                <div class="effort_svg effort_svg4">
+                                </div>
+                                <div class="effort__subtitle subtitle">Waste management:</div>
+                                <div class="effort-text">
+                                    <p>
+                                        <span class="grey-text">Regulations on waste disposal, recycling, and reduction can have an impact on the waste management industry.</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="effort">
+                                <div class="effort_svg effort_svg5">
+                                </div>
+                                <div class="effort__subtitle subtitle">Agriculture and forestry:</div>
+                                <div class="effort-text">
+                                    <p>
+                                        <span class="grey-text">Land-use policies and sustainable agriculture practices may influence how these industries operate, as they are significant contributors to greenhouse gas emissions.</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <p>
+                            It is essential to note that the implementation of these regulations and policies varies by country, as each government takes its own approach to meeting the goals outlined in the Paris Agreement.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="related-articles">
+                <div class="related-articles__container">
+                    <div class="related-articles__content">
+                        <div class="related-articles__title title">
+                            <p>
+                                Related Posts
+                            </p>
+                        </div>
+                        <div class="article-items">
+                            <div class="related-article">
+                                <div class="related-article_svg">
+                                    <img src="./css/img/related-article1.svg" alt="">
+                                </div>
+                                <div class="related-article_content">
+                                    <div class="related-article_label">
+                                        <p>
+                                            BLOG
+                                        </p>
+                                    </div>
+                                    <div class="related-article__subtitle subtitle">
+                                        <p>
+                                            What is Article 6?
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="related-article">
+                                <div class="related-article_svg">
+                                    <img src="./css/img/related-article2.svg" alt="">
+                                </div>
+                                <div class="related-article_content">
+                                    <div class="related-article_label">
+                                        <p>
+                                            BLOG
+                                        </p>
+                                    </div>
+                                    <div class="related-article__subtitle subtitle">
+                                        <p>
+                                            Adhering to Article 6 Principles: A Game Changer for Businesses and Organizations Globally
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="related-article">
+                                <div class="related-article_svg">
+                                    <img src="./css/img/related-article3.svg" alt="">
+                                </div>
+                                <div class="related-article_content">
+                                    <div class="related-article_label">
+                                        <p>
+                                            BLOG
+                                        </p>
+                                    </div>
+                                    <div class="related-article__subtitle subtitle">
+                                        <p>
+                                            Understanding the Differences between Carbon Certification Standards
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="feedback">
+                <div class="feedback__container">
+                        <div class="feedback__content">
+                            <div class="feedback-question">
+                                <div class="feedback__title title">
+                                    <p>
+                                        Have a question or feedback?
+                                    </p>
+                                </div>
+                                <div class="feedback__text text">
+                                   <p>
+                                    Contact us today to learn more about our services and begin your journey to net zero.                             
+                                   </p> 
+                                </div>
+                            </div>
+                            <div class="feedback-form">
+                                <form action="#" method="get">
+                                    <div class="feedback-form__content">
+                                        <div class="contact-us__title">
+                                            Contact Us
+                                        </div>
+                                        <div class="inputs-names">
+                                            <div class="input">
+                                                <label for="firstName">First name:</label>
+                                                <input type="text" tabindex="1" id="firstName" name="firstName" value="">
+                                            </div>
+                                            <div class="input">
+                                                <label for="lastName">Last name:</label>
+                                                <input type="text" tabindex="2" id="lastName" name="lastName" value="">
+                                            </div>
+                                        </div>
+                                        <div class="inputs-contacts">
+                                            <div class="input">
+                                                <label for="e-mail">E-mail:</label>
+                                                <input type="e-mail" tabindex="3" id="e-mail" name="e-mail" value="">
+                                            </div>
+                                            <div class="input">
+                                                <label for="phoneNumber">Phone number:</label>
+                                                <input type="tel" tabindex="4" id="phoneNumber" name="phoneNumber" value="">
+                                            </div>
+                                        </div>
+                                        <div class="message">
+                                        <label for="Message">Message:</label>
+                                        <textarea name="Message" tabindex="5" id="message"></textarea>
+                                        </div>
+                                        <div class="button-send">
+                                        <input type="submit" value="Submit">
+                                        </div>
+                                    </div>					
+                                </form>
+                            </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer__container">
+                    <div class="footer__logo">
+                        <img src="./css/img/Logo.svg" alt="Logo">
+                    </div>
+                    <div class="footer__email">
+                        <p>
+                            <b>Contact with us:</b> contact@greenblueedge.com
+                        </p>
+                    </div>
+            </div>
+    </footer>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
