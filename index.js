@@ -1,29 +1,3 @@
-//MODAL/CONTACT US
-// Get the modal
-var modal = document.getElementById("myModal");
-
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn");
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on the button, open the modal
-btn.onclick = function() {
-  modal.style.display = "block";
-}
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
 //SWIPER HOMEPAGE
 // Инициализируем Swiper
 let myImageSlider1 = new Swiper('#swiper-container1', {
@@ -199,6 +173,35 @@ let myImageSlider1 = new Swiper('#swiper-container1', {
 	// элементов слайда
 	observeSlideChildren: true,
 });
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal
+if (btn) {
+  btn.onclick = function() {
+    modal.style.display = "block";
+  }
+}
+
+// When the user clicks on <span> (x), close the modal
+if (span) {
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (modal && event.target === modal) {
+    modal.style.display = "none";
+  }
+}
 
 
 // Fixed navbar
@@ -210,7 +213,7 @@ const sidenavTop = sidenav.offsetTop;
 const sidenavBottom = sidenav.offsetBottom;
 const sidenavHeight = sidenav.offsetHeight;
 const footerTop = footer.offsetTop;
-const distanceToFooter = footerTop - sidenavTop + sidenavHeight;
+const distanceToFooter = footerTop - sidenavBottom;
 
 window.addEventListener("scroll", function() {
   if (window.pageYOffset >= heroImageHeight) {
@@ -307,6 +310,68 @@ if (window.matchMedia('(max-width: 1024px)').matches) {
     part.addEventListener('mouseleave', toggleDisplay);
   });
 }
+/*
+const toggleDivs = document.querySelectorAll('.stage');
+
+function toggleDisplay() {
+  // Get the next sibling element of the clicked div
+  const targetDiv = this.firstElementChild;
+  const targetDiv2 = this.lastElementChild;
+  // Toggle the display of the target div
+  if (targetDiv.style.display === 'none') {
+    targetDiv.style.display = 'block';
+    targetDiv2.style.display = 'none';
+  } else {
+    targetDiv.style.display = 'none';
+    targetDiv2.style.display = 'block';
+  }
+}
+
+// Add click event listener for all screen sizes
+toggleDivs.forEach(function(div) {
+  div.addEventListener('click', toggleDisplay);
+});
+
+// Add mouseenter and mouseleave event listeners for desktop only
+if (window.innerWidth < 1024) {
+  toggleDivs.forEach(function(div) {
+    div.addEventListener('mouseenter', toggleDisplay);
+    div.addEventListener('mouseleave', toggleDisplay);
+  });
+}
+*/
+/* 
+//Toggling for parts 
+const toggleParts = document.querySelectorAll('.sustainability__part');
+
+function toggleDisplay() {
+  // Get the next sibling element of the clicked div
+  const targetPart = this.firstElementChild;
+  const targetPart2 = this.lastElementChild;
+  // Toggle the display of the target div
+  if (targetPart.style.display === 'none') {
+    targetPart.style.display = 'block';
+    targetPart2.style.display = 'none';
+  } else {
+    targetPart.style.display = 'none';
+    targetPart2.style.display = 'block';
+  }
+}
+
+if (window.matchMedia('(max-width: 1024px)').matches) {
+  toggleParts.forEach(function(part) {
+    part.addEventListener('click', toggleDisplay);
+    part.removeEventListener('mouseenter', toggleDisplay);
+    part.removeEventListener('mouseleave', toggleDisplay);
+  });
+} else {
+  toggleParts.forEach(function(part) {
+    part.removeEventListener('click', toggleDisplay);
+    part.addEventListener('mouseenter', toggleDisplay);
+    part.addEventListener('mouseleave', toggleDisplay);
+  });
+}
+*/
 // Get all the dropdown buttons
 const dropdownButtons2 = document.querySelectorAll('.item__subtitle');
 
@@ -329,46 +394,23 @@ let myImageSlider2 = new Swiper('#swiper-container2', {
 		prevEl: '.previous2'
 	},
 
-	// Включение/отключение
-	// перетаскивания на ПК
+
 	simulateTouch: true,
-	// Чувствительность свайпа
 	touchRatio: 1,
-	// Угол срабатывания свайпа/перетаскивания
 	touchAngle: 45,
-	// Курсор перетаскивания
 	grabCursor: true,
-
-	// Переключение при клике на слайд
 	slideToClickedSlide: false,
-
-	// Навигация по хешу
 	hashNavigation: {
-		// Отслеживать состояние
 		watchState: true,
 	},
-
-	// Управление клавиатурой
 	keyboard: {
-		// Включить\выключить
 		enabled: true,
-		// Включить\выключить
-		// только когда слайдер
-		// в пределах вьюпорта
 		onlyInViewport: true,
-		// Включить\выключить
-		// управление клавишами
-		// pageUp, pageDown
 		pageUpDown: true,
 	},
 
-	// Управление колесом мыши
 	mousewheel: {
-		// Чувствительность колеса мыши
 		sensitivity: 1,
-		// Класс объекта на котором
-		// будет срабатывать прокрутка мышью.
-		//eventsTarget: ".image-slider"
 	},
 
 	// Автовысота
@@ -411,13 +453,7 @@ let myImageSlider2 = new Swiper('#swiper-container2', {
 
 	// Вертикальный слайдер
 	direction: 'horizontal',
-
-	
-	// Эффекты переключения слайдов.
-	// Листание
 	effect: 'slide',	
-	// Брейк поинты (адаптив)
-	// Ширина экрана
 	breakpoints: {
 		320: {
 			slidesPerView: 1,
@@ -432,62 +468,25 @@ let myImageSlider2 = new Swiper('#swiper-container2', {
 			slidesPerView: 3,
 		},
 	},
-
-	/*
-	// Брейк поинты (адаптив)
-	// Соотношение сторон
-	breakpoints: {
-		'@0.75': {
-			slidesPerView: 1,
-		},
-		'@1.00': {
-			slidesPerView: 2,
-		},
-		'@1.50': {
-			slidesPerView: 3,
-		}
-	},
-	*/
-
-	// Отключить предзагрузка картинок
 	preloadImages: false,
 	// Lazy Loading
 	// (подгрузка картинок)
 	lazy: {
-		// Подгружать на старте
-		// переключения слайда
 		loadOnTransitionStart: false,
-		// Подгрузить предыдущую
-		// и следующую картинки
 		loadPrevNext: false,
 	},
-	// Слежка за видимыми слайдами
 	watchSlidesProgress: true,
-	// Добавление класса видимым слайдам
 	watchSlidesVisibility: true,
-
-	// Зум картинки
 	zoom: {
-		// Макимальное увеличение
 		maxRatio: 5,
-		// Минимальное увеличение
 		minRatio: 1,
 	},
-	// Обновить свайпер
-	// при изменении элементов слайдера
 	observer: true,
-
-	// Обновить свайпер
-	// при изменении родительских
-	// элементов слайдера
 	observeParents: true,
-
-	// Обновить свайпер
-	// при изменении дочерних
-	// элементов слайда
 	observeSlideChildren: true,
 
 });
+
 // Инициализируем Swiper
 let myImageSlider3 = new Swiper('#swiper-container3', {
 	// Стрелки
@@ -519,23 +518,16 @@ let myImageSlider3 = new Swiper('#swiper-container3', {
 	keyboard: {
 		// Включить\выключить
 		enabled: true,
-		// Включить\выключить
-		// только когда слайдер
-		// в пределах вьюпорта
 		onlyInViewport: true,
-		// Включить\выключить
-		// управление клавишами
-		// pageUp, pageDown
+
 		pageUpDown: true,
 	},
 
-	// Управление колесом мыши
+
 	mousewheel: {
-		// Чувствительность колеса мыши
+
 		sensitivity: 1,
-		// Класс объекта на котором
-		// будет срабатывать прокрутка мышью.
-		//eventsTarget: ".image-slider"
+
 	},
 
 	// Автовысота
@@ -569,22 +561,19 @@ let myImageSlider3 = new Swiper('#swiper-container3', {
 	// Кол-во дублирующих слайдов
 	loopedSlides: 0,
 
-	// Свободный режим
 	freeMode: true,
 	
 
-	// Скорость
+
 	speed: 800,
 
-	// Вертикальный слайдер
+
 	direction: 'horizontal',
 
 	
-	// Эффекты переключения слайдов.
-	// Листание
+
 	effect: 'slide',	
-	// Брейк поинты (адаптив)
-	// Ширина экрана
+
 	breakpoints: {
 		320: {
 			slidesPerView: 1,
@@ -600,58 +589,33 @@ let myImageSlider3 = new Swiper('#swiper-container3', {
 		},
 	},
 
-	/*
-	// Брейк поинты (адаптив)
-	// Соотношение сторон
-	breakpoints: {
-		'@0.75': {
-			slidesPerView: 1,
-		},
-		'@1.00': {
-			slidesPerView: 2,
-		},
-		'@1.50': {
-			slidesPerView: 3,
-		}
-	},
-	*/
-
-	// Отключить предзагрузка картинок
 	preloadImages: false,
-	// Lazy Loading
-	// (подгрузка картинок)
+
 	lazy: {
-		// Подгружать на старте
-		// переключения слайда
+
 		loadOnTransitionStart: false,
-		// Подгрузить предыдущую
-		// и следующую картинки
+
 		loadPrevNext: false,
 	},
-	// Слежка за видимыми слайдами
+
 	watchSlidesProgress: true,
-	// Добавление класса видимым слайдам
+
 	watchSlidesVisibility: true,
 
-	// Зум картинки
+
 	zoom: {
-		// Макимальное увеличение
+
 		maxRatio: 5,
-		// Минимальное увеличение
+
 		minRatio: 1,
 	},
-	// Обновить свайпер
-	// при изменении элементов слайдера
+
 	observer: true,
 
-	// Обновить свайпер
-	// при изменении родительских
-	// элементов слайдера
+
 	observeParents: true,
 
-	// Обновить свайпер
-	// при изменении дочерних
-	// элементов слайда
+
 	observeSlideChildren: true,
 
 });
