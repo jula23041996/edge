@@ -2281,7 +2281,6 @@ input[type=submit]{
     width: 40%;
 	padding: 0px 0px 0px 193.26px;
     text-align: start;
-    color: #42434D;
 }
 .partners__text p{
     padding: 0px 15px 32px 0px;
@@ -2377,19 +2376,16 @@ input[type=submit]{
     flex: 0 1 47%;
     padding: 0px 56px 56px 0px;
 }
-.who__card:last-child{
-	padding: 0px;
-}
-.card__svg{
-    object-fit: contain;
+.card__svg img{
+    width: 100px;
+height: 100px;
 }
 .card__subtitle{
-    color: #000;
+    color: #50AA57;
     width: 90%;
     padding: 16px 0px 32px 0px;
 }
 .card__text{
-    color: #42434D;
     width: 100%;
 }
 @media (max-width: 1024px){
@@ -2406,6 +2402,9 @@ input[type=submit]{
         flex-direction: column;
         margin: auto;
     }
+	.who__card:last-child{
+	padding: 0px;
+}
 	.card__title{
         width: 90%;
     }
@@ -2427,7 +2426,6 @@ input[type=submit]{
     line-height: 3.5rem;
 }
 .partner__text{
-    color: #676979;
     padding: 0px 0px 64px 0px;
 }
   @media (max-width: 1024px){
