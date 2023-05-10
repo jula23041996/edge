@@ -1368,7 +1368,7 @@ input[type=submit]{
 	width: 20%; /* Set the width of the sidebar */
 	color: green;
 	overflow: hidden; /* Disable horizontal scroll */
-	padding: 125px 0px 225px 0px;
+	padding: 175px 0px 0px 0px;
 	height: 100%;
   }
   .fixed{
