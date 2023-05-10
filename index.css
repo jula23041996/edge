@@ -1194,7 +1194,8 @@ input{
 	border: 1px solid #50AA57;
 	border-radius: 8px;
 	padding: 10px;
-	font-size: 24px
+	font-size: 16px;
+	color: #50AA57;
 }
 input:focus {
 	outline: none;
@@ -1211,7 +1212,8 @@ input:focus {
 	padding: 16px 8px 16px 0px;
 }
 textarea{
-	padding: 8px 0px 0px 0px;
+	padding: 10px;
+	font-size: 16px;
 	color: #50AA57;
 	height: 140px;
 	width: 100%;
