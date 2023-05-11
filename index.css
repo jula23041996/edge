@@ -69,13 +69,13 @@ body {
 .text{
 	font-size: 1.5rem;
 	line-height: 2rem;
-	font-weight: 400;
+	font-weight: 300;
 	color: #9C9EAB;
 }
 .subtext{
 	font-size: 1rem;
 	line-height: 1.25rem;
-	font-weight: 400;
+	font-weight: 300;
 	color: #fff;
 }
 .label{
@@ -1544,7 +1544,7 @@ input[type=submit]{
 	z-index: 20;
 	}
 .item__subtext{
-	color: #676979;
+	color #9C9EAB;
 	width: 70%;
 	display: none;
 	padding: 16px 0px 0px 58px;
@@ -1773,7 +1773,7 @@ input[type=submit]{
 }
 .unit__subtext{
 	flex: 0 1 auto;
-	color: #676979;
+	color: #9C9EAB;
 	padding: 0px 0px 54px 0px;
 }
 .unit__photo img{
@@ -2034,7 +2034,6 @@ input[type=submit]{
 .sustainability__text{
 	padding: 0px 0px 32px 0px;
 	width: 60%;
-	color: #42434D;
 }
 /*---SWIPER--------------- */
 .swiper-container3{
