@@ -27,6 +27,7 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
 //SWIPER HOMEPAGE
 // Инициализируем Swiper
 let myImageSlider1 = new Swiper('#swiper-container1', {
@@ -202,6 +203,7 @@ let myImageSlider1 = new Swiper('#swiper-container1', {
 	// элементов слайда
 	observeSlideChildren: true,
 });
+
 // Fixed navbar
 const sidenav = document.getElementById("mySidenav");
 const heroImage = document.querySelector(".hero-image__container");
