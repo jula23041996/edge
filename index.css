@@ -1988,10 +1988,6 @@ input[type=submit]{
 	.assessments__text{
 		width: 100%;
 	}
-	.navigation2{
-		width: 100%;
-		left: 0;
-	}
 	.swiper-container2{
 		overflow: visible;
 	}
@@ -2104,10 +2100,6 @@ input[type=submit]{
 	}
 	.sustainability__text{
 		width: 100%;
-	}
-	.navigation3{
-		width: 100%;
-		left: 0;
 	}
 	.swiper-container3{
 		overflow: visible;
