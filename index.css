@@ -296,10 +296,10 @@ body {
   /* Modal Content/Box */
   .modal-content {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column-reverse;
 	background-color: #50AA57;
 	border-radius: 32px;
-	margin: 5% auto; /* 15% from the top and centered */
+	margin: 10% auto; /* 15% from the top and centered */
 	padding: 32px;
 	width: 70%; /* Could be more or less, depending on screen size */
   }
@@ -330,9 +330,9 @@ body {
   .close {
 	color: #fff;
 	text-decoration: none;
-	float: right;
+	align-self: flex-end;
 	font-size: 28px;
-	padding: 16px 32px 0px 0px;
+	padding: 0px 0px 0px 0px;
   }
   
   .close:hover,
@@ -1252,6 +1252,7 @@ input[type=submit]{
 		margin: auto;
 		border-radius: 32px;
 		flex-direction: column;
+		align-content: center;
 	}
 	.feedback-question{
 		width: 100%;
@@ -1298,7 +1299,7 @@ input[type=submit]{
 		border-radius: 0px;
 	}
 	form{
-		width: 90%;
+		width: 100%;
 	}
 	input{
 		width: 100%;
