@@ -1483,22 +1483,23 @@ input[type=submit]{
 /*FEASIBILITY*/
 .feasibility-studies{
 	background: radial-gradient(80.96% 53.81% at 114.26% 50.04%, rgba(80, 170, 87, 0.8) 3.21%, rgba(101, 180, 107, 0.4) 30.21%, rgba(124, 191, 129, 0.2) 56.25%, rgba(255, 255, 255, 0) 88.04%);
-  }
+}
 .feasibility-studies__body{
 	margin: 58px 0px 0px 0px;
 }
 .feasibility-studies__content{
+	width: 80%;
 	display: flex;
 	flex-direction: column;
 	color: #50AA57;
-}
+  }
   .feasibility-studies__title{
 	padding: 0px 0px 24px 0px;
 	width: 100%;
 	color: #50AA57;
   }
   .feasibility-studies__text{
-	width: 60%;
+	width: 80%;
 	padding: 0px 0px 32px 0px;
   }
 /* ВИДИ НАУК */
@@ -1515,8 +1516,9 @@ input[type=submit]{
 }
 .studies-types__column{
 	display: flex;
+	width: 60%;
 	flex-direction: column;
-	padding: 0px 0px 54px 14.6%;
+	padding: 0px 0px 54px 12%;
 }
 .column__item{
 	display: flex;
@@ -1545,7 +1547,6 @@ input[type=submit]{
 	}
 .item__subtext{
 	color: #9C9EAB;
-	width: 70%;
 	display: none;
 	padding: 16px 0px 0px 58px;
 	}
@@ -1561,9 +1562,6 @@ input[type=submit]{
 	 .feasibility-studies__text{
 		width: 100%;
 	}
-	.item__subtext{
-		width: 100%;
-	}
 	.studies-types{
 		flex-direction: column;
 	}
@@ -1574,6 +1572,7 @@ input[type=submit]{
 		padding: 0px 0px 0px 15px;
 	}
 	.studies-types__column{
+		width: 100%;
 	padding: 0px 0px 54px 0px;
 }
   }
@@ -1581,7 +1580,7 @@ input[type=submit]{
 	.feasibility-studies__body{
 	}
 	.feasibility-studies__content{
-		margin: 0px 16px;
+		margin: 0px 15px;
 	 }
 	 .studies-svg img{
 		width: 50%;
@@ -1817,12 +1816,13 @@ input[type=submit]{
 /* Verification  & Certification */
 .verification{
 	background: radial-gradient(80.96% 53.81% at 114.26% 50.04%, rgba(80, 170, 87, 0.8) 3.21%, rgba(101, 180, 107, 0.4) 30.21%, rgba(124, 191, 129, 0.2) 56.25%, rgba(255, 255, 255, 0) 88.04%);
-  }
+}
 .verification__body{
 	display: flex;
 	margin: 144px 0px 72px 0px;
 }
 .verification__content{
+	width: 80%;
 	display: flex;
 	flex-direction: column;
 }
@@ -1832,8 +1832,8 @@ input[type=submit]{
 	color: #50AA57;
 }
 .verification__text{
+	width: 80%;
 	padding: 0px 0px 32px 0px;
-	width: 60%;
 }
 /* ВИДИ НАУК */
 .verification-phases{
@@ -1849,9 +1849,9 @@ input[type=submit]{
 }
 .verification-phases__column{
 	display: flex;
+	width: 60%;
 	flex-direction: column;
-	position: relative;
-	padding: 0px 0px 54px 14.6%;
+	padding: 0px 0px 54px 12%;
 }
 @media (max-width: 1024px){
 	.verification__body{
@@ -1875,6 +1875,7 @@ input[type=submit]{
 	}
   .verification-phases__column{
 	padding: 0px 0px 54px 0px;
+	width: 100%;
 }
   }
   @media (max-width: 767.98px) {
@@ -1882,7 +1883,7 @@ input[type=submit]{
 		background-image: none;
 	}
 	.verification__content{
-		margin: 0px 16px;
+		margin: 0px 15px;
 	 }
 	 .verification-svg img{
 		width: 50%;
