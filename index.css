@@ -2646,6 +2646,7 @@ height: 100px;
 	text-align: start;
 	font-size: 3rem;
 	line-height: 3.3625rem;
+	font-weight: 300;
 }
 .chief-article__svg1{
 	border-radius: 32px;
@@ -2661,7 +2662,7 @@ height: 100px;
 	font-size: 1.25rem;
 	line-height: 2.25rem;
 	letter-spacing: 0.0125rem;
-	font-weight: 400;
+	font-weight: 300;
 }
 .paragraph p::first-letter{
 	padding-left: 0.625rem;
@@ -2770,10 +2771,10 @@ height: 100px;
 	font-size: 1.25rem;
 	line-height: 2.25rem;
 	letter-spacing: 0.0125rem;
-	font-weight: 400;
+	font-weight: 300;
 }
 .article-text__content p::first-letter{
-	padding-left: 1rem;
+	padding-left: 0.625rem;
 }
 @media (max-width: 1024px){
 	.article-text__content{
@@ -2886,7 +2887,7 @@ height: 100px;
 /*ARTICLE TEXT*/
 .grey-text{
 	color: #7B7D8E;
-	font-weight: 400;
+	font-weight: 300;
 	font-size: 1.25rem;
 	line-height: 2.25rem;
 	letter-spacing: 0.0125rem;
@@ -2905,50 +2906,6 @@ height: 100px;
 /*ARTICLE TEXT*/
 /*.......................................................POST3............................................................*/
 /*.......................................................POST4............................................................*/
-/*GUIDE*/
-.article6__container{
-	width: 80%;
-	margin: 225px auto 42px;
-}
-.article6__content{
-	width: 100%;
-}
-.article6__title{
-	width: 70%;
-	margin: 0px 0px 0px 160px;
-	padding: 0px 0px 43px 0px;
-	text-align: start;
-	font-size: 3rem;
-	line-height: 3.3625rem;
-}
-.article6__svg{
-	display: flex;
-	align-content: baseline;
-	width: 100%;
-	height: 560px;
-	background-image: url(main-svg_post4.svg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 100% 100%;
-	border-radius: 32px;
-}
-  @media (max-width: 1024px){
-	.article6__title{
-		width: 100%;
-		text-align: start;
-		margin: 0px;
-		padding: 0px 15px 0px 15px;
-	}
-  }
-@media (max-width: 767.98px){
-	.article6__container{
-		width: 100%;
-		padding: 0px;
-	}
-	.guide__svg{
-		border-radius: 0px;
-	}
-}
 /*ARTICLE TEXT*/
 .standart__subtitle{
 	color: #000;
@@ -2993,7 +2950,7 @@ height: 100px;
 }
 .grey-text{
 	color: #7B7D8E;
-	font-weight: 400;
+	font-weight: 300;
 	font-size: 1.25rem;
 	line-height: 2.25rem;
 	letter-spacing: 0.0125rem;
@@ -3026,7 +2983,10 @@ height: 100px;
 	font-size: 1.25rem;
 	line-height: 2.25rem;
 	letter-spacing: 0.0125rem;
-	font-weight: 400;
+	font-weight: 300;
+}
+.additional_text p::first-letter{
+	padding: 0px;
 }
 /*.......................................................POST8............................................................*/
 /*.......................................................POST9............................................................*/
@@ -3201,13 +3161,16 @@ height: 100px;
 .effort_svg5{
 	background-image: url(article12_svg5.svg);
 }
+.effort-text p::first-letter{
+	padding: 0px;
+}
 .additional_text{
 	color: #212227;
 	padding: 48px 0px 48px 0px;
 	font-size: 1.25rem;
 	line-height: 2.25rem;
 	letter-spacing: 0.0125rem;
-	font-weight: 400;
+	font-weight: 300;
 }
 @media (max-width: 767.98px){
 	.efforts{
