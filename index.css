@@ -2017,7 +2017,7 @@ input[type=submit]{
 	background-color: #E8F1F2;
 }
 .sustainability__content{
-	width: 100%;
+	width: 80%;
 	display: flex;
 	flex-direction: column;
 	padding-right: 15px;
@@ -2030,7 +2030,7 @@ input[type=submit]{
 }
 .sustainability__text{
 	padding: 0px 0px 32px 0px;
-	width: 60%;
+	width: 80%;
 }
 /*---SWIPER--------------- */
 .swiper-container3{
@@ -2096,6 +2096,15 @@ input[type=submit]{
 	color: #fff;
 }
 @media (max-width: 1024px){
+	.sustainability{
+		right: 0;
+		bottom: 0;
+	}
+	.sustainability__body{
+		top: 0;
+		left: 0;
+		margin: 0px 0px 56px 0px;
+	}
 	.sustainability__content{
 		margin: 0px 142px;
 	}
@@ -2111,7 +2120,8 @@ input[type=submit]{
 		margin: 0px 0px 56px 0px;
 	}
 	.sustainability__content{
-		margin: 0px 16px;
+		width: 100%;
+		margin: 0px 15px;
 	}
 }
 /*.............................................SERVICES PAGE...........................................*/
