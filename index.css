@@ -300,7 +300,7 @@ body {
 	background-color: #50AA57;
 	border-radius: 32px;
 	margin: 3% auto; /* 15% from the top and centered */
-	padding: 32px;
+	padding: 16px 32px 32px 32px;
 	width: 70%; /* Could be more or less, depending on screen size */
   }
   .contacts_form{
