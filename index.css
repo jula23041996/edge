@@ -2635,12 +2635,9 @@ height: 100px;
 /*.................................................POST...........................................*/
 /*.................................................POST1...........................................*/
 /*Сhief-article__container*/
-.chief-article__container{
-	margin: 225px auto 42px;
-	width: 80%;
-}
 .chief-article__content{
 	margin: auto;
+	padding: 0px 0px 42px 0px;
 }
 .chief-article__title2{
 	width: 70%;
