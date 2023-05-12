@@ -2002,7 +2002,7 @@ input[type=submit]{
 	background-color: #E8F1F2;
 }
 .sustainability__content{
-	width: 80%;
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	padding-right: 15px;
@@ -2015,7 +2015,7 @@ input[type=submit]{
 }
 .sustainability__text{
 	padding: 0px 0px 32px 0px;
-	width: 80%;
+	width: 60%;
 }
 /*---SWIPER--------------- */
 .swiper-container3{
