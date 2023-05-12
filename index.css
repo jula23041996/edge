@@ -1722,7 +1722,6 @@ input[type=submit]{
 	right: 420px;
 	bottom: 0px;
 	background-color: #E8F1F2;
-	height: auto;
 }
 .project-implementation__body{
 	position: relative;
@@ -1744,7 +1743,7 @@ input[type=submit]{
 }
 .project-implementation__text{
 	padding: 0px 0px 32px 0px;
-	width: 60%;
+	width: 80%;
 }
 
 /* БЛОКИ IMPLEMENTATION*/
@@ -1752,30 +1751,29 @@ input[type=submit]{
 	width: 100%;
 	display: flex;
 	flex-direction: row;
+	row-gap: 10px;
 	margin: 0px -10px;
-	padding: 0px 0px 40px 0px;
 }
 .implementation__unit{
 	flex: 0 1 25%;
 	display: flex;
 	flex-direction: column;
 	padding: 0px 10px;
-	height: auto;
 }
 .unit__photo{
-	flex: 0 1 auto;
 }
 .unit__subtitle{
+	width: 80%;
 	padding: 24px 0px 16px 0px;
-	flex: 0 1 auto;
 	color: #006CA7;
 }
 .unit__subtext{
-	flex: 0 1 auto;
-	color: #9C9EAB;
+	flex: 1 1 80%;
+	color: #9C9EAB;;
 	padding: 0px 0px 54px 0px;
 }
 .unit__photo img{
+	height: 354px;
 	width: 100%;
 }
 @media (max-width: 1024px) {
@@ -1788,7 +1786,7 @@ input[type=submit]{
 		left: 0;
 		margin: 0px 0px 0px 142px;
 	  }
-	  .project-implementation__text{
+	.project-implementation__text{
 		width: 100%;
 	}
 	.implementation__units{
@@ -1797,8 +1795,9 @@ input[type=submit]{
 	.implementation__unit{
 		flex: 0 1 45%;
 	}
-	.unit__subtext{
-		flex: 0 1 auto;
+	.unit__photo img{
+		height: 354px;
+		width: auto;
 	}
 }
 @media (max-width: 767.98px){
@@ -1806,10 +1805,13 @@ input[type=submit]{
 		margin: 0px 16px;
 		width: 100%;
 	  }
-	}
-@media (max-width: 390px){
-	.implementation__unit{
+	  .unit__subtext{
 		flex: 0 1 100%;
+	}
+	}
+@media (max-width: 580px){
+	.implementation__unit{
+		flex: 0 1 60%;
 	}
 	}
 
