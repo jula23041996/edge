@@ -1588,6 +1588,25 @@ input[type=submit]{
 		width: 50%;
   }
 }
+/*Project DEVELOPMENT*/
+.project-development__body{
+	margin: 58px 0px 0px 0px;
+	padding: 0px 15px 0px 0px;
+}
+.project-development__content{
+	display: flex;
+	flex-direction: column;
+	text-align: start;
+  }
+.project-development__title{
+	padding: 0px 0px 24px 0px;
+	width: 100%;
+	color: #006CA7;
+}
+.project-development__text{
+	padding: 0px 0px 32px 0px;
+	width: 60%;
+}
 /* БЛОКИ Project development*/
 .stage__blocks{
 	display: flex;
