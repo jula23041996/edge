@@ -299,7 +299,7 @@ body {
 	flex-direction: column-reverse;
 	background-color: #50AA57;
 	border-radius: 32px;
-	margin: 10% auto; /* 15% from the top and centered */
+	margin: 3% auto; /* 15% from the top and centered */
 	padding: 32px;
 	width: 70%; /* Could be more or less, depending on screen size */
   }
@@ -349,6 +349,7 @@ body {
 @media (max-width: 1200px) {
 	.modal-content{
 		width: 90%;
+		margin: 7% auto;
 	}
 	.contacts_form {
 		flex-direction: column;
@@ -375,6 +376,7 @@ body {
 @media (max-width: 767.98px) {
 	.modal-content{
 		width: 98%;
+		margin: 10% auto;
 	}
 }
 /*........................................................CONTACT US/MODAL......................................................................................*/
