@@ -1588,25 +1588,6 @@ input[type=submit]{
 		width: 50%;
   }
 }
-/*Project DEVELOPMENT*/
-.project-development__body{
-	margin: 58px 0px 0px 0px;
-	padding: 0px 15px 0px 0px;
-}
-.project-development__content{
-	display: flex;
-	flex-direction: column;
-	text-align: start;
-  }
-.project-development__title{
-	padding: 0px 0px 24px 0px;
-	width: 100%;
-	color: #006CA7;
-}
-.project-development__text{
-	padding: 0px 0px 32px 0px;
-	width: 60%;
-}
 /* БЛОКИ Project development*/
 .stage__blocks{
 	display: flex;
@@ -1651,7 +1632,7 @@ input[type=submit]{
 	flex-direction: row;
 	justify-content: space-between;
 	color: #fff;
-	padding: 0px 0px 44.85px 0px;
+	padding: 0px 0px 24.85px 0px;
 }
 .block__subtitle2{
 	flex: 0 0 100%;
@@ -1659,7 +1640,7 @@ input[type=submit]{
 	color: #fff;
 }
 .block__number{
-	margin: 0px 0px 117px 0px;
+	margin: 0px 0px 100px 0px;
 }
 .block__svg2{
 	width: 170px;
