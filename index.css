@@ -2549,9 +2549,10 @@ height: 100px;
 }
 .big-article-svg{
 	width: 100%;
-	padding: 0px 0px 32px 0px;
+	padding: 0px 0px 16px 0px;
 }
 .big-article__subtitle{
+	padding: 0px 0px 32px 0px;
 	width: 100%;
 	color: #000;
 } 
@@ -2582,9 +2583,10 @@ height: 100px;
 }
 .small-article-svg{
 	width: 100%;
-	padding: 0px 0px 32px 0px;
+	padding: 0px 0px 16px 0px;
 }
 .small-article__subtitle{
+	padding: 0px 0px 32px 0px;
 	width: 100%;
 	color: #000;
 }
