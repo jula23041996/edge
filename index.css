@@ -432,11 +432,11 @@ body {
 @media (max-width: 767.98px) {
 	.edge-group__content{
 		width: 100%;
-		padding: 0px 0px 321px 5px;
+		padding: 0px 15px 321px 15px;
 	}
 	.edge-group__heading{
-		font-size: 3.4375rem;	
-		line-height: 3.4375rem;
+		font-size: 3rem;	
+		line-height: 3rem;
 	}
 	.edge-group__subheading{
 		font-size: 1.75rem;
