@@ -1387,12 +1387,12 @@ input[type=submit]{
 	overflow: hidden; /* Disable horizontal scroll */
 	padding: 175px 0px 100px 0px;
 	height: 100%;
-	-webkit-transform: translateZ(0);
   }
   .fixed{
 	position: fixed;
 	left: 0;
 	top: 0;
+	-webkit-transform: translateZ(0);
   }
   .fixed + .page-sections{
 	margin-left: 20%;
