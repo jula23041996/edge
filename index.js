@@ -228,58 +228,6 @@ window.addEventListener("scroll", function() {
     sidenav.style.top = newTop + "px";
   }
 });
-/*
-// Get all elements with the class 'toggle-div'
-const toggleDivs = document.querySelectorAll('.stage');
-
-// Attach a click event listener to each toggle div
-toggleDivs.forEach(function(div) {
-  div.addEventListener('click', function() {
-    // Get the next sibling element of the clicked div
-    const targetDiv = div.firstElementChild;
-	const targetDiv2 = div.lastElementChild;
-    // Toggle the display of the target div
-    if (targetDiv.style.display === 'none') {
-      targetDiv.style.display = 'block';
-	  targetDiv2.style.display = 'none';
-    } else {
-      targetDiv.style.display = 'none';
-	  targetDiv2.style.display = 'block';
-    }
-  });
-});
-toggleDivs.forEach(function(div) {
-	div.addEventListener('mouseenter', function() {
-	  // Get the next sibling element of the clicked div
-	  const targetDiv = div.firstElementChild;
-	  const targetDiv2 = div.lastElementChild;
-	  // Toggle the display of the target div
-	  if (targetDiv.style.display === 'none') {
-		targetDiv.style.display = 'block';
-		targetDiv2.style.display = 'none';
-	  } else {
-		targetDiv.style.display = 'none';
-		targetDiv2.style.display = 'block';
-	  }
-	});
-  });
-  toggleDivs.forEach(function(div) {
-	div.addEventListener('mouseleave', function() {
-	  // Get the next sibling element of the clicked div
-	  const targetDiv = div.firstElementChild;
-	  const targetDiv2 = div.lastElementChild;
-	  // Toggle the display of the target div
-	  if (targetDiv.style.display === 'none') {
-		targetDiv.style.display = 'block';
-		targetDiv2.style.display = 'none';
-	  } else {
-		targetDiv.style.display = 'none';
-		targetDiv2.style.display = 'block';
-	  }
-	});
-  });
-*/
-
 //Toggling for divs
 const toggleDivs = document.querySelectorAll('.stage');
 
@@ -310,68 +258,6 @@ if (window.matchMedia('(max-width: 1024px)').matches) {
     part.addEventListener('mouseleave', toggleDisplay);
   });
 }
-/*
-const toggleDivs = document.querySelectorAll('.stage');
-
-function toggleDisplay() {
-  // Get the next sibling element of the clicked div
-  const targetDiv = this.firstElementChild;
-  const targetDiv2 = this.lastElementChild;
-  // Toggle the display of the target div
-  if (targetDiv.style.display === 'none') {
-    targetDiv.style.display = 'block';
-    targetDiv2.style.display = 'none';
-  } else {
-    targetDiv.style.display = 'none';
-    targetDiv2.style.display = 'block';
-  }
-}
-
-// Add click event listener for all screen sizes
-toggleDivs.forEach(function(div) {
-  div.addEventListener('click', toggleDisplay);
-});
-
-// Add mouseenter and mouseleave event listeners for desktop only
-if (window.innerWidth < 1024) {
-  toggleDivs.forEach(function(div) {
-    div.addEventListener('mouseenter', toggleDisplay);
-    div.addEventListener('mouseleave', toggleDisplay);
-  });
-}
-*/
-/* 
-//Toggling for parts 
-const toggleParts = document.querySelectorAll('.sustainability__part');
-
-function toggleDisplay() {
-  // Get the next sibling element of the clicked div
-  const targetPart = this.firstElementChild;
-  const targetPart2 = this.lastElementChild;
-  // Toggle the display of the target div
-  if (targetPart.style.display === 'none') {
-    targetPart.style.display = 'block';
-    targetPart2.style.display = 'none';
-  } else {
-    targetPart.style.display = 'none';
-    targetPart2.style.display = 'block';
-  }
-}
-
-if (window.matchMedia('(max-width: 1024px)').matches) {
-  toggleParts.forEach(function(part) {
-    part.addEventListener('click', toggleDisplay);
-    part.removeEventListener('mouseenter', toggleDisplay);
-    part.removeEventListener('mouseleave', toggleDisplay);
-  });
-} else {
-  toggleParts.forEach(function(part) {
-    part.removeEventListener('click', toggleDisplay);
-    part.addEventListener('mouseenter', toggleDisplay);
-    part.addEventListener('mouseleave', toggleDisplay);
-  });
-}
-*/
 // Get all the dropdown buttons
 const dropdownButtons2 = document.querySelectorAll('.item__subtitle');
 
@@ -619,4 +505,3 @@ let myImageSlider3 = new Swiper('#swiper-container3', {
 	observeSlideChildren: true,
 
 });
-
