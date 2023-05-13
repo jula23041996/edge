@@ -1582,8 +1582,9 @@ input[type=submit]{
 	.feasibility-studies__body{
 	}
 	.feasibility-studies__content{
+		width: 100%;
 		margin: 0px 15px;
-	 }
+	}
 	 .studies-svg img{
 		width: 50%;
   }
