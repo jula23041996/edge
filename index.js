@@ -203,8 +203,7 @@ let myImageSlider1 = new Swiper('#swiper-container1', {
 	// элементов слайда
 	observeSlideChildren: true,
 });
-
-// Fixed navbar
+//Fixed sidenav
 const sidenav = document.getElementById("mySidenav");
 const heroImage = document.querySelector(".hero-image__container");
 const footer = document.querySelector(".footer__container");
@@ -219,6 +218,7 @@ window.addEventListener("scroll", function() {
   if (window.pageYOffset >= heroImageHeight) {
     sidenav.classList.add("fixed");
     sidenav.style.top = "0";
+    sidenav.style.webkitTransform = "translateZ(0)";
   } else {
     sidenav.classList.remove("fixed");
     sidenav.style.top = sidenavTop - heroImageHeight + "px";
