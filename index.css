@@ -1887,6 +1887,7 @@ input[type=submit]{
 		background-image: none;
 	}
 	.verification__content{
+		width: 100%;
 		margin: 0px 15px;
 	 }
 	 .verification-svg img{
