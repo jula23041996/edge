@@ -1387,6 +1387,7 @@ input[type=submit]{
 	overflow: hidden; /* Disable horizontal scroll */
 	padding: 175px 0px 0px 0px;
 	height: 100%;
+	-webkit-transform: translateZ(0);
   }
   .fixed{
 	position: fixed;
