@@ -2692,6 +2692,9 @@ height: 100px;
 	.chief-article__container{
 		width: 100%;
 	}
+	.chief-article__content{
+		padding: 0px 0px 16px 0px;
+	}
 	.chief-article__svg{
 		border-radius: 0px;
 	}
