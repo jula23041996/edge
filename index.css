@@ -1409,7 +1409,7 @@ input[type=submit]{
 }
 .sidenav__item {
 	margin: 5px;
-	padding: 5px 0px 5px 0px;
+	padding: 1px 0px 1px 0px;
 	text-align: start;
 }
 .sidenav__link {
