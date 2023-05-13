@@ -208,14 +208,11 @@ let myImageSlider1 = new Swiper('#swiper-container1', {
 const sidenav = document.getElementById("mySidenav");
 const heroImage = document.querySelector(".hero-image__container");
 const footer = document.querySelector(".footer__container");
-const heroImageRect = heroImage.getBoundingClientRect();
-const sidenavRect = sidenav.getBoundingClientRect();
-const footerRect = footer.getBoundingClientRect();
-const heroImageHeight = heroImageRect.height;
-const sidenavTop = sidenavRect.top + window.pageYOffset;
-const sidenavBottom = sidenavRect.bottom + window.pageYOffset;
-const sidenavHeight = sidenavRect.height;
-const footerTop = footerRect.top + window.pageYOffset;
+const heroImageHeight = heroImage.offsetHeight;
+const sidenavTop = sidenav.offsetTop;
+const sidenavBottom = sidenav.offsetBottom;
+const sidenavHeight = sidenav.offsetHeight;
+const footerTop = footer.offsetTop;
 const distanceToFooter = footerTop - sidenavBottom;
 
 window.addEventListener("scroll", function() {
@@ -228,9 +225,10 @@ window.addEventListener("scroll", function() {
   }
   if (window.pageYOffset + sidenavHeight >= footerTop) {
     const newTop = footerTop - distanceToFooter;
-    sidenav.style.top = newTop + sidenavHeight + "px";
+    sidenav.style.top = newTop + "px";
   }
 });
+
 //Toggling for divs
 const toggleDivs = document.querySelectorAll('.stage');
 
