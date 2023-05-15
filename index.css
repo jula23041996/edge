@@ -2812,6 +2812,15 @@ height: 100px;
 .related-articles__title{
 	padding: 0px 0px 32px 0px;
 }
+.related-articles__content{
+	width: 73%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+}
+.related-articles__title{
+	padding: 0px 0px 32px 0px;
+}
 .article-items{
 	display: flex;
 	flex-direction: column;
@@ -2823,18 +2832,20 @@ height: 100px;
 }
 .related-article{
 	display: flex;
-	flex-direction: row;
-	padding: 0px 0px 32px 0px;
+	flex-direction: column;
+	padding: 0px 0px 0px 0px;
+}
+.related-article_svg{
+	object-fit: contain;
 }
 .related-article_svg img{
-	object-fit: contain;
+	width: 100%;
 	border-radius: 16px;
 }
 .related-article_content{
 	display: flex;
 	flex-direction: column;
-	width: 40%;
-	padding: 0px 0px 0px 32px;
+	padding: 0px 0px 0px 0px;
 }
 .related-article_label{
 	color: #445B78;
@@ -2842,9 +2853,11 @@ height: 100px;
 	line-height: 1.2rem;
 	text-align: start;
 	letter-spacing: 0.0075rem;
-	padding: 0px 0px 6px 0px;
+	padding: 12px 0px 6px 12px;
 }
 .related-article__subtitle{
+	padding: 0px 0px 0px 12px;
+	width: 90%;
 	color: #000;
 	font-size: 1.25rem;
 	line-height: 1.4rem;
@@ -2857,24 +2870,54 @@ height: 100px;
 	.related-articles__content{
 		width: 100%;
 	}
+	.related-article_label{
+		padding: 12px 0px 6px 32px;
+	}
+	.related-article__subtitle{
+		padding: 12px 0px 6px 32px;
+	}
 }
 @media (max-width: 767.98px){
 	.related-articles__container{
 		width: 100%;
 		padding: 0px 15px;
 	}
-	.related-article{
-		flex-direction: column;
-		padding: 0px 0px 32px 0px;
-	}
 	.related-article_content{
 		width: 80%;
 		padding: 0px;
 	}
-	.related-article_label{
-		padding: 16px 0px 6px 0px;
+}
+/*---------------------------------------------SLIDER-----------------------------------------------------------*/
+/* ------------------ */
+.swiper-container4{
+	position: relative;
+	overflow: hidden;
+}
+.swiper-container4 .image-slider{
+	min-height: 0;
+	position: relative;
+	height: auto;
+}
+.swiper-container4 .image-slider__slide {
+	height: auto;
+}
+.swiper-container4 .image-slider__image {
+	height: auto;
+	text-align: start;
+	color: #fff;
+}
+
+.swiper-container4 .image-slider__image img {
+	object-fit: contain;
+	margin: 0px;
+}
+
+@media (max-width: 1024px){
+	.swiper-container4{
+		overflow: visible;
 	}
 }
+/*---------------------------------------------SLIDER-----------------------------------------------------------*/
 /*.................................................POST1...........................................*/
 /*.......................................................POST2............................................................*/
 /*ARTICLE6*/
