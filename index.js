@@ -1,3 +1,4 @@
+'use strict'
 // Get the modal
 var modal = document.getElementById("myModal");
 
@@ -203,7 +204,179 @@ let myImageSlider1 = new Swiper('#swiper-container1', {
 	// элементов слайда
 	observeSlideChildren: true,
 });
-//Fixed sidenav
+// Инициализируем Swiper
+let myImageSlider4 = new Swiper('#swiper-container4', {
+	
+	// Скролл
+
+	// Включение/отключение
+	// перетаскивания на ПК
+	simulateTouch: true,
+	// Чувствительность свайпа
+	touchRatio: 1,
+	// Угол срабатывания свайпа/перетаскивания
+	touchAngle: 45,
+	// Курсор перетаскивания
+	grabCursor: true,
+
+	// Переключение при клике на слайд
+	slideToClickedSlide: false,
+
+	// Навигация по хешу
+	hashNavigation: {
+		// Отслеживать состояние
+		watchState: true,
+	},
+
+	// Управление клавиатурой
+	keyboard: {
+		// Включить\выключить
+		enabled: true,
+		// Включить\выключить
+		// только когда слайдер
+		// в пределах вьюпорта
+		onlyInViewport: true,
+		// Включить\выключить
+		// управление клавишами
+		// pageUp, pageDown
+		pageUpDown: true,
+	},
+
+	// Управление колесом мыши
+	mousewheel: {
+		// Чувствительность колеса мыши
+		sensitivity: 1,
+		// Класс объекта на котором
+		// будет срабатывать прокрутка мышью.
+		//eventsTarget: ".image-slider"
+	},
+
+	// Автовысота
+	autoHeight: false,
+
+	// Количество слайдов для показа
+	slidesPerView: 3,
+	
+	// Отключение функционала
+	// если слайдов меньше чем нужно
+	watchOverflow: true,
+
+	// Отступ между слайдами
+	spaceBetween: 30,
+
+	// Количество пролистываемых слайдов
+	slidesPerGroup: 1,
+
+	// Активный слайд по центру
+	centeredSlides: false,
+
+	// Стартовый слайд.
+	initialSlide: 1,
+
+	// Мультирядность
+	slidesPerColumn: 1,
+
+	// Бесконечный слайдер
+	loop: true,
+	autoplay: {
+		delay: 3000, // Delay between slide transitions (in milliseconds)
+		disableOnInteraction: false, // Autoplay continues even when user interacts with the slider
+	  },
+
+	// Кол-во дублирующих слайдов
+	loopedSlides: 0,
+
+	// Свободный режим
+	freeMode: true,
+	// Скорость
+	speed: 800,
+
+	// Вертикальный слайдер
+	direction: 'horizontal',
+
+	// Эффекты переключения слайдов.
+
+    //Листание
+	effect: 'slide',
+
+	
+	
+	// Брейк поинты (адаптив)
+	// Ширина экрана
+	
+	breakpoints: {
+		320: {
+			slidesPerView: 1,
+		},
+		480: {
+			slidesPerView: 1.75,
+		},
+		992: {
+			slidesPerView: 2.25,
+		},
+		1024: {
+			slidesPerView: 3,
+		}
+	},
+	
+	
+	
+/*
+	breakpoints: {
+		'@0.75': {
+			slidesPerView: 1,
+		},
+		'@1.00': {
+			slidesPerView: 1,
+		},
+		'@1.50': {
+			slidesPerView: 3,
+		}
+	},
+*/
+	
+
+	// Отключить предзагрузка картинок
+	preloadImages: false,
+	// Lazy Loading
+	// (подгрузка картинок)
+	lazy: {
+		// Подгружать на старте
+		// переключения слайда
+		loadOnTransitionStart: false,
+		// Подгрузить предыдущую
+		// и следующую картинки
+		loadPrevNext: false,
+	},
+	// Слежка за видимыми слайдами
+	watchSlidesProgress: true,
+	// Добавление класса видимым слайдам
+	watchSlidesVisibility: true,
+
+	// Зум картинки
+	zoom: {
+		// Макимальное увеличение
+		maxRatio: 5,
+		// Минимальное увеличение
+		minRatio: 1,
+	},
+
+	// Обновить свайпер
+	// при изменении элементов слайдера
+	observer: true,
+
+	// Обновить свайпер
+	// при изменении родительских
+	// элементов слайдера
+	observeParents: true,
+
+	// Обновить свайпер
+	// при изменении дочерних
+	// элементов слайда
+	observeSlideChildren: true,
+});
+
+// Fixed navbar
 const sidenav = document.getElementById("mySidenav");
 const heroImage = document.querySelector(".hero-image__container");
 const footer = document.querySelector(".footer__container");
@@ -506,3 +679,4 @@ let myImageSlider3 = new Swiper('#swiper-container3', {
 	observeSlideChildren: true,
 
 });
+
