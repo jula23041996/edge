@@ -138,10 +138,10 @@ let myImageSlider1 = new Swiper('#swiper-container1', {
 			slidesPerView: 1,
 		},
 		480: {
-			slidesPerView: 1,
+			slidesPerView: 1.5,
 		},
 		992: {
-			slidesPerView: 2,
+			slidesPerView: 1.75,
 		},
 		1315: {
 			slidesPerView: 3,
