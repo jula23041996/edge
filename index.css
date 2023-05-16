@@ -3177,7 +3177,6 @@ height: 100px;
 		display: none;
 	}
 	.paris{
-		margin: 35px 5px 0px 0px;
 		flex: 0 1 50%;
 	}
 	.kyoto{
@@ -3189,6 +3188,9 @@ height: 100px;
 	.distinctions{
 		width: 98%;
 		flex-direction: column;
+	}
+	.paris{
+		margin: 35px 5px 0px 0px;
 	}
 
 }
