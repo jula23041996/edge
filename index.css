@@ -49,6 +49,19 @@ body {
 	margin: 0px auto;
 	padding: 0px 15px;
 }
+[class*="__body"] {
+	padding: 0px 15px;
+}
+@media (max-width: 1024px){
+	[class*="__body"] {
+		padding: 0px 142px;
+	}
+}
+@media (max-width: 768px){
+	[class*="__body"] {
+		padding: 0px 15px;
+	}
+}
  /*------------------ */
  .main {
 	flex: 1 1 auto;
@@ -1381,7 +1394,7 @@ input[type=submit]{
 	position: relative;
 	top: 0;
 	left: 0;
-	z-index: 10;
+	z-index: 40;
 	width: 20%; /* Set the width of the sidebar */
 	color: green;
 	overflow: hidden; /* Disable horizontal scroll */
@@ -1394,7 +1407,7 @@ input[type=submit]{
 	top: 0;
 	-webkit-transform: translateZ(0);
   }
-.page-sections{
+  .page-sections{
 	margin-left: 20%;
   }
 
@@ -1421,7 +1434,7 @@ input[type=submit]{
 }
 .sidenav a{
 	display: block;
-	padding: 5px 32px 5px 32px;
+	padding: 4px 32px 4px 32px;
 }
   /* When you mouse over the navigation links, change their color */
   .sidenav a:hover{
@@ -1442,7 +1455,7 @@ input[type=submit]{
 	.sidenav{
 		display: none;
 	}
-	  .page-sections{
+	.page-sections{
 		margin-left: 0%;
 	  }
   }
@@ -1455,21 +1468,22 @@ input[type=submit]{
 	margin: 165px 0px 0px 0px
 }
 .provider__content{
+	width: 80%;
 	display: flex;
 	flex-direction: column;
-}
+ }
 .provider__title{
 	padding: 0px 0px 24px 0px;
 	width: 100%;
 	color: #006CA7;
 }
 .provider__text{
-	width: 60%;
+	width: 70%;
 	padding: 0px 0px 50px 0px;
 }
 @media (max-width: 1024px){
 	.provider__content{
-		margin: 88px 142px 134px 142px;
+		margin: 88px 0px 134px 0px;
 	 }
 	 .provider__text{
 		width: 100%;
@@ -1480,7 +1494,7 @@ input[type=submit]{
 		margin: 56px 0px 0px 0px
 	}
 	.provider__content{
-		margin: 0px 16px 56px 16px;
+		margin: 0px 0px 56px 0px;
 	 }
   }
 /*FEASIBILITY*/
@@ -1502,7 +1516,7 @@ input[type=submit]{
 	color: #50AA57;
   }
   .feasibility-studies__text{
-	width: 80%;
+	width: 50%;
 	padding: 0px 0px 32px 0px;
   }
 /* ВИДИ НАУК */
@@ -1557,11 +1571,6 @@ input[type=submit]{
 	display: block;
 }
 @media (max-width: 1024px){
-	.feasibility-studies__body{
-	}
-	.feasibility-studies__content{
-		margin: 0px 0px 0px 142px;
-	 }
 	 .feasibility-studies__text{
 		width: 100%;
 	}
@@ -1576,15 +1585,12 @@ input[type=submit]{
 	}
 	.studies-types__column{
 		width: 100%;
-	padding: 0px 0px 54px 0px;
+		padding: 0px 0px 54px 0px;
 }
   }
   @media (max-width: 767.98px) {
-	.feasibility-studies__body{
-	}
 	.feasibility-studies__content{
 		width: 100%;
-		margin: 0px 15px;
 	}
 	 .studies-svg img{
 		width: 50%;
@@ -1593,12 +1599,12 @@ input[type=submit]{
 /*Project DEVELOPMENT*/
 .project-development__body{
 	margin: 58px 0px 0px 0px;
-	padding: 0px 15px 0px 0px;
 }
 .project-development__content{
 	display: flex;
 	flex-direction: column;
 	text-align: start;
+	width: 80%;
   }
 .project-development__title{
 	padding: 0px 0px 24px 0px;
@@ -1607,7 +1613,7 @@ input[type=submit]{
 }
 .project-development__text{
 	padding: 0px 0px 32px 0px;
-	width: 60%;
+	width: 70%;
 }
 /* БЛОКИ Project development*/
 .stage__blocks{
@@ -1680,9 +1686,6 @@ input[type=submit]{
 	object-fit: contain;
 }
 @media (max-width: 1024px) {
-	.project-development__content{
-		margin: 0px 142px 0px 142px;
-	}
 	.stage__blocks{
 		width: 100%;
 	}
@@ -1701,7 +1704,7 @@ input[type=submit]{
 		margin: 0px;
 	}
 	.project-development__content{
-		margin: 0px 16px;
+		width: 100%;
 	}
 	.stage__blocks{
 		width: 100%;
@@ -1737,7 +1740,6 @@ input[type=submit]{
 	width: 80%;
 	display: flex;
 	flex-direction: column;
-	padding-right: 15px;
   }
 .project-implementation__title{
 	margin: 60px 0px 0px 0px;
@@ -1764,8 +1766,6 @@ input[type=submit]{
 	flex-direction: column;
 	padding: 0px 10px;
 }
-.unit__photo{
-}
 .unit__subtitle{
 	width: 80%;
 	padding: 24px 0px 16px 0px;
@@ -1788,7 +1788,6 @@ input[type=submit]{
 	.project-implementation__content{
 		top: 0;
 		left: 0;
-		margin: 0px 0px 0px 142px;
 	  }
 	.project-implementation__text{
 		width: 100%;
@@ -1806,7 +1805,6 @@ input[type=submit]{
 }
 @media (max-width: 767.98px){
 	.project-implementation__content{
-		margin: 0px 16px;
 		width: 100%;
 	  }
 	  .unit__subtext{
@@ -1838,7 +1836,7 @@ input[type=submit]{
 	color: #50AA57;
 }
 .verification__text{
-	width: 80%;
+	width: 50%;
 	padding: 0px 0px 32px 0px;
 }
 /* ВИДИ НАУК */
@@ -1864,9 +1862,6 @@ input[type=submit]{
 		display: flex;
 		margin: 56px 0px 0px 0px;
 	}
-	.verification__content{
-		margin: 0px 0px 0px 142px;
-	 }
 	 .verification__text{
 		width: 100%;
 	}
@@ -1890,7 +1885,6 @@ input[type=submit]{
 	}
 	.verification__content{
 		width: 100%;
-		margin: 0px 15px;
 	 }
 	 .verification-svg img{
 		width: 50%;
@@ -1904,6 +1898,7 @@ input[type=submit]{
 .assessments__content{
 	display: flex;
 	flex-direction: column;
+	width: 100%;
 }
 .assessments__title{
 	padding: 0px 0px 24px 0px;
@@ -1912,7 +1907,7 @@ input[type=submit]{
 }
 .assessments__text{
 	padding: 0px 0px 36px 0px;
-	width: 60%;
+	width: 50%;
 }
 /*---SWIPER--------------- */
 .swiper-container2{
@@ -1990,9 +1985,6 @@ input[type=submit]{
 	background-size: cover;
 }
 @media (max-width: 1024px){
-	.assessments__content{
-		margin: 0px 142px;
-	}
 	.assessments__text{
 		width: 100%;
 	}
@@ -2003,9 +1995,6 @@ input[type=submit]{
 @media (max-width: 767.98px){
 	.assessments__body{
 		margin: 0px 0px 56px 0px;
-	}
-	.assessments__content{
-		margin: 0px 16px;
 	}
 }
 /* SUSTAINABILITY */
@@ -2024,9 +2013,9 @@ input[type=submit]{
 	background-color: #E8F1F2;
 }
 .sustainability__content{
+	width: 100%;
 	display: flex;
 	flex-direction: column;
-	padding-right: 15px;
   }
 .sustainability__title{
 	margin: 62px 0px 0px 0px;
@@ -2036,7 +2025,7 @@ input[type=submit]{
 }
 .sustainability__text{
 	padding: 0px 0px 32px 0px;
-	width: 60%;
+	width: 50%;
 }
 /*---SWIPER--------------- */
 .swiper-container3{
@@ -2112,9 +2101,6 @@ input[type=submit]{
 		left: 0;
 		margin: 0px 0px 56px 0px;
 	}
-	.sustainability__content{
-		margin: 0px 142px;
-	}
 	.sustainability__text{
 		width: 100%;
 	}
@@ -2125,9 +2111,6 @@ input[type=submit]{
 @media (max-width: 767.98px){
 	.sustainability__body{
 		margin: 0px 0px 56px 0px;
-	}
-	.sustainability__content{
-		margin: 0px 15px;
 	}
 }
 /*.............................................SERVICES PAGE...........................................*/
