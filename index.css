@@ -1442,7 +1442,7 @@ input[type=submit]{
 	.sidenav{
 		display: none;
 	}
-	.fixed + .page-sections{
+	  .page-sections{
 		margin-left: 0%;
 	  }
   }
