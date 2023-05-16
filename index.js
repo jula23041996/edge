@@ -519,12 +519,9 @@ let myImageSlider2 = new Swiper('#swiper-container2', {
 			slidesPerView: 1,
 		},
 		480: {
-			slidesPerView: 1.5,
+			slidesPerView: 1.25,
 		},
 		992: {
-			slidesPerView: 2,
-		},
-		1024: {
 			slidesPerView: 3,
 		},
 	},
@@ -625,26 +622,17 @@ let myImageSlider3 = new Swiper('#swiper-container3', {
 	
 
 
-	speed: 800,
-
-
+	speed: 800,	
 	direction: 'horizontal',
-
-	
-
 	effect: 'slide',	
-
 	breakpoints: {
 		320: {
 			slidesPerView: 1,
 		},
 		480: {
-			slidesPerView: 1.5,
+			slidesPerView: 1.25,
 		},
 		992: {
-			slidesPerView: 2,
-		},
-		1024: {
 			slidesPerView: 3,
 		},
 	},
