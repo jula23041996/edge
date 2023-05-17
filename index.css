@@ -166,7 +166,7 @@ body {
 	justify-content: flex-end;
 }
 .menu__body{
-        padding: 0px;
+	padding: 0px;
 }
 .menu__list {
 	display: flex;
@@ -175,7 +175,7 @@ body {
 .menu__item {
 	margin: 0px 40px 0px 0px;
 }
-.menu__item:last-child {
+.menu__item:last-child{
 	margin: 0px 0px 0px 0px;
 }
 .menu__link {
@@ -192,6 +192,10 @@ body {
 	.header__logo{
 		padding-left: 0px;
 	}
+	.header__menu{
+		padding: 0px;
+	}
+	
 }
 @media (max-width: 767.98px) {
 	.header__logo{
@@ -278,7 +282,7 @@ body {
 		top: 50%;
 		left: 0;
 		width: 100%;
-		background-color: #000;
+		background-color: #006CA7;
 		height: 2px;
 	}
 	.close-icon-menu::before {
