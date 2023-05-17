@@ -1607,7 +1607,7 @@ input[type=submit]{
 	display: flex;
 	flex-direction: column;
 	text-align: start;
-	width: 80%;
+	width: 100%;
   }
 .project-development__title{
 	padding: 0px 0px 24px 0px;
@@ -1616,14 +1616,14 @@ input[type=submit]{
 }
 .project-development__text{
 	padding: 0px 0px 32px 0px;
-	width: 70%;
+	width: 50%;
 }
 /* БЛОКИ Project development*/
 .stage__blocks{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	width: 100%;
+	width: 74%;
 	height: auto;
 	margin: 0px 0px 144px 0px;
 	column-gap: 15px;
