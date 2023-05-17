@@ -658,7 +658,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	width: 80%;
-	margin: 180px auto;
+	margin: 81.5px auto;
 	height: auto;
 	background-color: #006CA7;
 	background-image: url(flower1.svg), url(flower2.svg), url(flower3.svg);
@@ -802,7 +802,7 @@ body {
 .bussiness__container{
 	width: 100%;
 	background-color: #E8F1F2;
-	margin: 80px auto;
+	margin: 81.5px auto;
 }
 .bussiness__content{
 	display: flex;
@@ -1037,7 +1037,7 @@ body {
 	width: 80%;
 	display: flex;
 	flex-direction: column;
-	margin: 180px auto;
+	margin: 81.5px auto;
 }
 .blog__content .label{
 	padding: 59px 0px 0px 0px;
