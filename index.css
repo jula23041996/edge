@@ -1848,7 +1848,7 @@ input[type=submit]{
 }
 .verification__body{
 	display: flex;
-	margin: 72px 0px 72px 0px;
+	margin: 90px 0px 72px 0px;
 }
 .verification__content{
 	width: 80%;
@@ -1880,7 +1880,7 @@ input[type=submit]{
 	display: flex;
 	width: 60%;
 	flex-direction: column;
-	padding: 0px 0px 54px 12%;
+	padding: 0px 0px 0px 12%;
 }
 @media (max-width: 1024px){
 	.verification__body{
@@ -1900,7 +1900,7 @@ input[type=submit]{
 		padding: 0px 0px 0px 15px;
 	}
   .verification-phases__column{
-	padding: 0px 0px 0px 0px;
+	padding: 0px 0px 54px 0px;
 	width: 100%;
 }
   }
@@ -2000,22 +2000,22 @@ input[type=submit]{
 	width: 80%;
 }
 .image2_1{
-	background-image: url(1asses.png);
+	background-image: url(./img/1asses.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .image2_2{
-	background-image: url(2asses.png);
+	background-image: url(./img/2asses.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .image2_3{
-	background-image: url(3asses.png);
+	background-image: url(./img/3asses.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .image2_4{
-	background-image: url(4asses.png);
+	background-image: url(./img/4asses.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
