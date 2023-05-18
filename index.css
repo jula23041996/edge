@@ -1478,7 +1478,7 @@ input[type=submit]{
 	flex: 1 1 auto;
 }
 .provider__body{
-	margin: 165px 0px 88px 0px
+	margin: 165px 0px 0px 0px
 }
 .provider__content{
 	width: 80%;
@@ -1495,9 +1495,6 @@ input[type=submit]{
 	padding: 0px 0px 0px 0px;
 }
 @media (max-width: 1024px){
-	.provider__content{
-		margin: 88px 0px 134px 0px;
-	 }
 	 .provider__text{
 		width: 100%;
 	}
@@ -1515,7 +1512,7 @@ input[type=submit]{
 	background: radial-gradient(80.96% 53.81% at 114.26% 50.04%, rgba(80, 170, 87, 0.8) 3.21%, rgba(101, 180, 107, 0.4) 30.21%, rgba(124, 191, 129, 0.2) 56.25%, rgba(255, 255, 255, 0) 88.04%);
 }
 .feasibility-studies__body{
-	margin: 0px 0px 72px 0px;
+	margin: 88px 0px 72px 0px;
 }
 .feasibility-studies__content{
 	width: 80%;
