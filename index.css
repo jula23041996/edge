@@ -1405,27 +1405,21 @@ input[type=submit]{
 /* БОКОВЕ МЕНЮ */
 .sidenav{
 	position: relative;
-	top: 0;
-	left: 0;
 	z-index: 40;
 	width: 20%; /* Set the width of the sidebar */
 	color: green;
-	overflow: hidden; /* Disable horizontal scroll */
-	padding: 175px 0px 15px 0px;
+	padding: 155px 0px 15px 0px;
 	height: 100%;
   }
   .fixed{
 	position: fixed;
-	left: 0;
 	top: 0;
 	-webkit-transform: translateZ(0);
+	transition: all 0.5s ease-in-out;
   }
-  .page-sections{
+  .fixed + .page-sections{
 	margin-left: 20%;
   }
-
-  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
-
 .sidenav__list {
 	display: flex;
 	flex-direction: column;
@@ -1450,7 +1444,7 @@ input[type=submit]{
 	padding: 4px 32px 4px 32px;
 }
   /* When you mouse over the navigation links, change their color */
-  .sidenav a:hover{
+  .sidenav link:hover{
 	background-color: #50AA57;
 	color: #fff;
 	box-shadow: 0px 12px 24px -2px rgba(0, 0, 0, 0.06);
@@ -1468,11 +1462,10 @@ input[type=submit]{
 	.sidenav{
 		display: none;
 	}
-	.page-sections{
+	.fixed + .page-sections{
 		margin-left: 0%;
 	  }
   }
-  
   /* Style page content */
 .provider{
 	flex: 1 1 auto;
