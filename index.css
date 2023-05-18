@@ -1885,7 +1885,7 @@ input[type=submit]{
 @media (max-width: 1024px){
 	.verification__body{
 		display: flex;
-		margin: 56px 0px 0px 0px;
+		margin: 54px 0px;
 	}
 	 .verification__text{
 		width: 100%;
