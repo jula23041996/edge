@@ -405,7 +405,7 @@ body {
 .edge-group__container{
 	height: auto;
 	width: 100%;
-	background-image: url(.//img/bg_main.png);
+	background-image: url(bg_main.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 	margin: auto;
@@ -1737,7 +1737,7 @@ input[type=submit]{
 	}
 	.stage{
 		flex: 0 0 60%;
-		margin: auto;
+		margin: 0px auto 54px;
 	}
 }
 @media (max-width: 500px){
@@ -2000,22 +2000,22 @@ input[type=submit]{
 	width: 80%;
 }
 .image2_1{
-	background-image: url(./img/1asses.png);
+	background-image: url(1asses.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .image2_2{
-	background-image: url(./img/2asses.png);
+	background-image: url(2asses.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .image2_3{
-	background-image: url(./img/3asses.png);
+	background-image: url(3asses.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .image2_4{
-	background-image: url(./img/4asses.png);
+	background-image: url(4asses.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
