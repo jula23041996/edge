@@ -1733,7 +1733,7 @@ input[type=submit]{
 	}
 	.stage__blocks{
 		width: 100%;
-		margin: 40px auto;
+		margin: 0px auto;
 	}
 	.stage{
 		flex: 0 0 60%;
