@@ -156,32 +156,33 @@ let myImageSlider4 = new Swiper('#swiper-container4', {
 });
 
 // Fixed navbar
+//Fixed navbar
 window.addEventListener('scroll', function() {
-  var heroImage = document.querySelector('.hero-image');
-  var sidebar = document.getElementById('sidebar');
-  var footer = document.querySelector('.footer');
-  var sidebarHeight = sidebar.offsetHeight;
-  var heroImageBottom = heroImage.offsetTop + heroImage.offsetHeight;
-  var sidebarTop = heroImageBottom;
-  var footerTop = footer.offsetTop;
-  var distance = 20;
-
-  if (window.pageYOffset >= sidebarTop) {
-    sidebar.classList.add('fixed');
-    sidebar.style.top = distance + 'px';
-    sidebar.style.webkitTransform = 'translateZ(0)';
-  } else {
-    sidebar.classList.remove('fixed');
-    sidebar.style.top = '';
-    sidebar.style.webkitTransform = ''; // Safari vendor prefix
-  }
-
-  if (window.pageYOffset + sidebarHeight >= footerTop - distance) {
-    sidebar.classList.remove('fixed');
-    sidebar.style.top = footerTop - sidebarHeight - distance + 'px';
-    sidebar.style.webkitTransform = '';
-  }
-});
+	var heroImage = document.querySelector('.hero-image__container');
+	var sidebar = document.getElementById('mySidenav');
+	var footer = document.querySelector('.footer__container');
+	var sidebarHeight = sidebar.offsetHeight;
+	var heroImageBottom = heroImage.offsetTop + heroImage.offsetHeight;
+	var sidebarTop = heroImageBottom;
+	var footerTop = footer.offsetTop;
+	var distance = 20;
+  
+	if (window.pageYOffset >= sidebarTop) {
+	  sidebar.classList.add('fixed');
+	  sidebar.style.top = distance + 'px';
+	  sidebar.style.webkitTransform = 'translateZ(0)'; 
+	} else {
+	  sidebar.classList.remove('fixed');
+	  sidebar.style.top = '';
+	  sidebar.style.webkitTransform = '';
+	}
+  
+	if (window.pageYOffset + sidebarHeight >= footerTop - distance) {
+	  sidebar.classList.remove('fixed');
+	  sidebar.style.top = footerTop - sidebarHeight - distance + 'px';
+	  sidebar.style.webkitTransform = '';
+	}
+  }); 
 
 //Toggling for divs
 const toggleDivs = document.querySelectorAll('.stage');
