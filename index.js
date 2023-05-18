@@ -267,6 +267,9 @@ let myImageSlider2 = new Swiper('#swiper-container2', {
 		992: {
 			slidesPerView: 2.25,
 		},
+		1024: {
+			slidesPerView: 3,
+		},
 	},
 	preloadImages: false,
 	lazy: {
@@ -334,6 +337,9 @@ let myImageSlider3 = new Swiper('#swiper-container3', {
 		},
 		992: {
 			slidesPerView: 2.25,
+		},
+		1024: {
+			slidesPerView: 3,
 		},
 	},
 	preloadImages: false,
