@@ -1932,7 +1932,7 @@ input[type=submit]{
 	overflow: hidden;
 }
 .navigation2{
-	width: 99%;
+	width: 100%;
 	margin: auto;
 	top: 40%;
 	display: flex;
@@ -2060,7 +2060,7 @@ input[type=submit]{
 	overflow: hidden;
 }
 .navigation3{
-	width: 99%;
+	width: 100%;
 	margin: auto;
 	top: 40%;
 	display: flex;
