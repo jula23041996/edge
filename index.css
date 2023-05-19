@@ -1042,14 +1042,6 @@ body {
 	.climate-change__text{
 		width: 100%;
 	}
-	.previous{
-		width: 40px;
-		height: 40px;
-	}
-	.next{
-		width: 40px;
-		height: 40px;
-	}
 }
 /*---------------------------------------------SLIDER-----------------------------------------------------------*/
 /*BLOG*/
@@ -2026,14 +2018,6 @@ input[type=submit]{
 	.swiper-container2{
 		overflow: visible;
 	}
-	.previous2{
-		width: 40px;
-		height: 40px;
-	}
-	.next2{
-		width: 40px;
-		height: 40px;
-	}
 }
 @media (max-width: 767.98px){
 	.assessments__body{
@@ -2159,14 +2143,6 @@ input[type=submit]{
 	}
 	.swiper-container3{
 		overflow: visible;
-	}
-	.previous3{
-		width: 40px;
-		height: 40px;
-	}
-	.next3{
-		width: 40px;
-		height: 40px;
 	}
 }
 @media (max-width: 767.98px){
