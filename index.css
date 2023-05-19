@@ -1932,14 +1932,14 @@ input[type=submit]{
 	overflow: hidden;
 }
 .navigation2{
-	width: 90%;
+	width: 99%;
 	margin: auto;
 	top: 40%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	position: absolute;
-	left: 5%;
+	left: 0%;
 	z-index: 30;
 }
 .previous2{
@@ -2060,14 +2060,14 @@ input[type=submit]{
 	overflow: hidden;
 }
 .navigation3{
-	width: 90%;
+	width: 99%;
 	margin: auto;
 	top: 40%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	position: absolute;
-	left: 5%;
+	left: 0%;
 	z-index: 30;
 }
 .previous3{
