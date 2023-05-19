@@ -156,25 +156,53 @@ let myImageSlider4 = new Swiper('#swiper-container4', {
 });
 
 // Fixed navbar
-window.addEventListener('scroll', function() {
-	var sidenav = document.querySelector('.sidenav');
-	var footer = document.querySelector('footer');
-	var sidenavTop = sidenav.offsetTop;
-	var footerTop = footer.offsetTop;
-	var windowHeight = window.innerHeight;
+const sidenav = document.getElementById("mySidenav");
+const heroImage = document.querySelector(".hero-image__container");
+const footer = document.querySelector(".footer__container");
+const heroImageHeight = heroImage.offsetHeight;
+const sidenavTop = sidenav.offsetTop;
+const sidenavBottom = sidenav.offsetTop + sidenav.offsetHeight;
+const sidenavHeight = sidenav.offsetHeight;
+const footerTop = footer.offsetTop;
+const distanceToFooter = footerTop - sidenavBottom;
+
+let isScrollingDown = false;
+let lastScrollPosition = 0;
+
+window.addEventListener("scroll", function() {
+  const currentScrollPosition = window.pageYOffset;
   
-	if (window.pageYOffset > sidenavTop) {
-	  sidenav.classList.add('fixed');
-	  if (window.pageYOffset + windowHeight > footerTop - 20) {
-		sidenav.classList.add('bottom');
-	  } else {
-		sidenav.classList.remove('bottom');
-	  }
-	} else {
-	  sidenav.classList.remove('fixed');
-	  sidenav.classList.remove('bottom');
-	}
-  });
+  if (currentScrollPosition > lastScrollPosition) {
+    // Scrolling down
+    isScrollingDown = true;
+  } else {
+    // Scrolling up
+    isScrollingDown = false;
+  }
+  
+  if (isScrollingDown) {
+    if (currentScrollPosition >= heroImageHeight) {
+      sidenav.classList.add("fixed");
+      sidenav.style.top = "0";
+      sidenav.style.webkitTransform = "translateZ(0)";
+    } else {
+      sidenav.classList.remove("fixed");
+      sidenav.style.top = sidenavTop - currentScrollPosition + "px";
+    }
+  } else {
+    // Scrolling up
+    if (currentScrollPosition < heroImageHeight) {
+      sidenav.style.top = sidenavTop - currentScrollPosition + "px";
+    }
+  }
+  
+  if (currentScrollPosition + sidenavHeight >= footerTop) {
+    const newTop = footerTop - distanceToFooter;
+    sidenav.style.top = newTop + "px";
+  }
+  
+  lastScrollPosition = currentScrollPosition;
+});
 
 //Toggling for divs
 const toggleDivs = document.querySelectorAll('.stage');
